@@ -42,6 +42,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 * [Two Sum](TwoSum/twosum.dart)
 * [UFT-8 Validation](UTF-8Validation/uft_8_validation.dart)
 * [Valid Parenthesis](ValidParentheses/valid_parentheses.dart)
+* [Concatenation of Consecutive Binary Numbers](ConcatenationofConsecutiveBinaryNumbers/concatenation_of_consecutive_binary_numbers.dart)
 
 ## Reach me via
 
