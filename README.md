@@ -46,6 +46,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Path Sum II](PathSumII/path_sum_II.dart)
 - [Pascal's Triangle II](Pascal'sTriangle-II/pascals_riangle_II.dart)
 
+- [Design Circular Queue](DesignCircularQueue/design_circular_queue.dart)
+
 ## Reach me via
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://ayoubzulfiqar3@gmail.com)
