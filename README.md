@@ -45,8 +45,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Concatenation of Consecutive Binary Numbers](ConcatenationofConsecutiveBinaryNumbers/concatenation_of_consecutive_binary_numbers.dart)
 - [Path Sum II](PathSumII/path_sum_II.dart)
 - [Pascal's Triangle II](Pascal'sTriangle-II/pascals_riangle_II.dart)
-
 - [Design Circular Queue](DesignCircularQueue/design_circular_queue.dart)
+- [Satisfiability of Equality Equations](SatisfiabilityOfEqualityEquations/satisfiability_of_equality_equations.dart)
 
 ## Reach me via
 
