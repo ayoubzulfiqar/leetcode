@@ -49,6 +49,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Satisfiability of Equality Equations](SatisfiabilityOfEqualityEquations/satisfiability_of_equality_equations.dart)
 - [Best Time to Buy and Sell Stock](BestTimeToBuyAndSellStock/best_time_to_buy_and_sell_stock.dart)
 - [Valid Palindrome](ValidPalindrome/valid_palindrome.dart)
+- [Push Dominoes](PushDominoes/push_dominoes.dart)
 
 ## Reach me via
 
