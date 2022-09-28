@@ -50,6 +50,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Best Time to Buy and Sell Stock](BestTimeToBuyAndSellStock/best_time_to_buy_and_sell_stock.dart)
 - [Valid Palindrome](ValidPalindrome/valid_palindrome.dart)
 - [Push Dominoes](PushDominoes/push_dominoes.dart)
+- [Single Number](SingleNumber/single_number.dart)
+- [Remove Nth Node From End of List](RemoveNthNodeFromEndOfList/remove_nth_node_from_end_of_list.dart)
 
 ## Reach me via
 
