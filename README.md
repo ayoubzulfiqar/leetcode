@@ -60,6 +60,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Missing Ranges](MissingRanges/missing_ranges.dart)
 - [Find K Closest Elements](FindKClosestElements/find_k_closest_elements.dart)
 - [Excel Sheet Column Title](ExcelSheetColumnTitle/excel_sheet_column_title.dart)
+- [Majority Element](MajorityElement/majority_element.dart)
 
 ## Reach me via
 
