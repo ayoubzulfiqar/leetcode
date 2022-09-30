@@ -62,6 +62,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Excel Sheet Column Title](ExcelSheetColumnTitle/excel_sheet_column_title.dart)
 - [Majority Element](MajorityElement/majority_element.dart)
 - [The Skyline Problem](TheSkylineProblem/the_skyline_problem.dart)
+- [Two Sum III - Data Structure Design](TwoSum-III-DataStructureDesign/two_sum_III_data_structure_design.dart)
 
 ## Reach me via
 
