@@ -65,6 +65,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Two Sum III - Data Structure Design](TwoSum-III-DataStructureDesign/two_sum_III_data_structure_design.dart)
 - [Excel Sheet Column Number](ExcelSheetColumnNumber/excel_sheet_colum_number.dart)
 - [Decode Ways](DecodeWays/decode_ways.dart)
+- [Number of 1 Bits](NumberOf-1-Bits/number_of_1_bits.dart)
 
 ## Reach me via
 
