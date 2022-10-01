@@ -66,6 +66,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Excel Sheet Column Number](ExcelSheetColumnNumber/excel_sheet_colum_number.dart)
 - [Decode Ways](DecodeWays/decode_ways.dart)
 - [Number of 1 Bits](NumberOf-1-Bits/number_of_1_bits.dart)
+- [Reverse Bits](ReverseBits/reverse_bits.dart)
 
 ## Reach me via
 
