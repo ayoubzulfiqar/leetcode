@@ -67,6 +67,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Decode Ways](DecodeWays/decode_ways.dart)
 - [Number of 1 Bits](NumberOf-1-Bits/number_of_1_bits.dart)
 - [Reverse Bits](ReverseBits/reverse_bits.dart)
+- [Happy Number](HappyNumber/happy_number.dart)
 
 ## Reach me via
 
