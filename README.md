@@ -68,6 +68,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Number of 1 Bits](NumberOf-1-Bits/number_of_1_bits.dart)
 - [Reverse Bits](ReverseBits/reverse_bits.dart)
 - [Happy Number](HappyNumber/happy_number.dart)
+- [Number of Dice Rolls With Target Sum](NumberOfDiceRollsWithTargetSum/number_of_dice_rolls_with_target_sum.dart)
 
 ## Reach me via
 
