@@ -146,3 +146,12 @@ class D {
     return false;
   }
 }
+
+class E {
+  bool hasPathSum(TreeNode? root, int targetSum) {
+    return (root?.left ?? root?.right) != null
+        ? hasPathSum(root?.left, targetSum - root!.val) ||
+            hasPathSum(root.right, targetSum - root.val)
+        : (root?.val ?? int) == targetSum;
+  }
+}
