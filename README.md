@@ -71,6 +71,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Number of Dice Rolls With Target Sum](NumberOfDiceRollsWithTargetSum/number_of_dice_rolls_with_target_sum.dart)
 - [Remove Linked List Elements](RemoveLinkedListElements/remove_linked_list_elements.dart)
 - [Minimum Time to Make Rope Colorful](MinimumTimeToMakeRopeColorful/minimum_time_to_make_rope_colorful.dart)
+- [Isomorphic Strings](IsomorphicStrings/isomorphic_strings.dart)
 
 ## Reach me via
 
