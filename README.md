@@ -72,6 +72,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Remove Linked List Elements](RemoveLinkedListElements/remove_linked_list_elements.dart)
 - [Minimum Time to Make Rope Colorful](MinimumTimeToMakeRopeColorful/minimum_time_to_make_rope_colorful.dart)
 - [Isomorphic Strings](IsomorphicStrings/isomorphic_strings.dart)
+- [Add One Row to Tree](AddOneRowToTree/add_one_row_to_tree.dart)
 
 ## Reach me via
 
