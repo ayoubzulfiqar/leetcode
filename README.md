@@ -76,6 +76,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Time Based Key-Value Store](TimeBasedKeyValueStore/time_based_key_value_store.dart)
 - [My Calendar III](MyCalendar-III/my_calendar_III.dart)
 - [Reverse Linked List](ReverseLinkedList/reverse_linked_list.dart)
+- [Contains Duplicate](ContainsDuplicate/contains_duplicate.dart)
 
 ## Reach me via
 
