@@ -77,6 +77,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [My Calendar III](MyCalendar-III/my_calendar_III.dart)
 - [Reverse Linked List](ReverseLinkedList/reverse_linked_list.dart)
 - [Contains Duplicate](ContainsDuplicate/contains_duplicate.dart)
+- [Contains Duplicate II](ContainsDuplicate-II/contains_duplicate_II.dart)
 
 ## Reach me via
 
