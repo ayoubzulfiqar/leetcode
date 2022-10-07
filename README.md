@@ -79,6 +79,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Contains Duplicate](ContainsDuplicate/contains_duplicate.dart)
 - [Contains Duplicate II](ContainsDuplicate-II/contains_duplicate_II.dart)
 - [Implement Stack using Queues](ImplementStackUsingQueues/implement_stack_using_queues.dart)
+- [Invert Binary Tree](InvertBinaryTree/invert_binary_tree.dart)
 
 ## Reach me via
 
