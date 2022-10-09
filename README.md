@@ -85,6 +85,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Implement Queue using Stacks](ImplementQueueUsingStacks/implement_queue_using_stacks.dart)
 - [3Sum Closest](3SumClosest/3_sum_closest.dart)
 - [Two Sum IV - Input is a BST](TwoSumIV-InputIsABST/two_sum_IV_input_is_a_bst.dart)
+- [Valid Anagram](ValidAnagram/valid_anagram.dart)
 
 ## Reach me via
 
