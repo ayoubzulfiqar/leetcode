@@ -86,6 +86,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [3Sum Closest](3SumClosest/3_sum_closest.dart)
 - [Two Sum IV - Input is a BST](TwoSumIV-InputIsABST/two_sum_IV_input_is_a_bst.dart)
 - [Valid Anagram](ValidAnagram/valid_anagram.dart)
+- [Break a Palindrome](BreakAPalindrome/break_a_palindrome.dart)
 
 ## Reach me via
 
