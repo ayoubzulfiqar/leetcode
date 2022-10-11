@@ -88,6 +88,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Valid Anagram](ValidAnagram/valid_anagram.dart)
 - [Break a Palindrome](BreakAPalindrome/break_a_palindrome.dart)
 - [Palindrome Linked List](PalindromeLinkedList/palindrome_linked_list.dart)
+- [Increasing Triplet Subsequence](IncreasingTripletSubsequence/increasing_triplet_subsequence.dart)
 
 ## Reach me via
 
