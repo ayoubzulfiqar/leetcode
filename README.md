@@ -90,6 +90,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Palindrome Linked List](PalindromeLinkedList/palindrome_linked_list.dart)
 - [Increasing Triplet Subsequence](IncreasingTripletSubsequence/increasing_triplet_subsequence.dart)
 - [Shortest Word Distance](ShortestWordDistance/shortest_word_distance.dart)
+- [Largest Perimeter Triangle](LargestPerimeterTriangle/largest_perimeter_triangle.dart)
 
 ## Reach me via
 
