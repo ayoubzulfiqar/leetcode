@@ -93,6 +93,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Largest Perimeter Triangle](LargestPerimeterTriangle/largest_perimeter_triangle.dart)
 - [Binary Tree Paths](BinaryTreePaths/binary_tree_paths.dart)
 - [Delete Node in a Linked List](DeleteNodeInALinkedList/delete_node_in_a_linked_list.dart)
+- [Strobo-Grammatic Number](StrobogrammaticNumber/strobogrammatic_number.dart)
 
 ## Reach me via
 
