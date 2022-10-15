@@ -83,48 +83,6 @@ class A {
   }
 }
 
-class B {
-  int len(int most) {
-    if (most == 0) return 0;
-    if (most == 1) return 1;
-    if (most < 10) return 2;
-    if (most < 100) return 3;
-    return 4;
-  }
-
-  int getLengthOfOptimalCompression(String s, int k) {
-    List<String> chars = s.split("");
-    List<List<int>> dp = List.filled(chars.length + 1, 0)
-        .map(
-          (e) => List.filled(k + 1, 0),
-        )
-        .toList();
-    int dfs(List<String> chars, int idx, int k, List<List<int>> dp) {
-      if (k < 0) return 101;
-      if (dp[idx][k] > 0) {
-        // if there is no more than k chars left, delete all
-        if (idx + k >= chars.length) {
-          dp[idx][k] = 0;
-        } else {
-          List<int> cnt = List.filled(128, 0);
-          int most = 0, best = 101;
-          for (int j = idx; j < chars.length; j++) {
-            cnt[chars[j].codeUnitAt(0)]++;
-            most = max(most, cnt[chars[j].codeUnitAt(0)]);
-            // delete [idx,j] but keep chars with most counts
-            best = min(best,
-                len(most) + dfs(chars, j + 1, k - j + idx - 1 + most, dp));
-          }
-          dp[idx][k] = best;
-        }
-      }
-      return dp[idx][k];
-    }
-
-    return dfs(chars, 0, k, dp);
-  }
-}
-
 class C {
   int getLengthOfOptimalCompression(String s, int k) {
     int n = s.length;
@@ -172,7 +130,9 @@ class C {
   }
 }
 
-class D {
+class Solution {
+// Runtime: 534 ms, faster than 100.00% of Dart online submissions for String Compression II.
+// Memory Usage: 161.9 MB, less than 100.00% of Dart online submissions for String Compression II.
   int n = 127;
   late List<List<int>> dp;
   int getLen(int x) {
@@ -210,9 +170,8 @@ class D {
   }
 
   int getLengthOfOptimalCompression(String s, int k) {
-    //dp = vector<vector<int>>(N,vector<int>(N,-1));
-    // dp = List.filled(n, 0).map((e) => List.filled(n, -1)).toList();
-    dp = List.filled(n, List.filled(n, -1));
+    dp = List.filled(n, 0).map((e) => List.filled(n, -1)).toList();
+
     return helper(s, 0, k);
   }
 }
@@ -311,11 +270,11 @@ class E {
 // int getLengthOfOptimalCompression(String s, int k) {
 
 // }
-class Solution {
+class M {
   int getLengthOfOptimalCompression(String s, int k) {
     // dp[i][k] := length of optimal compression of s[i:] w/ at most k deletion
     // dp.resize(s.length, List<int>(k + 1, kMax));
-    dp = List.filled(s.length, List.filled(k + 1, kMax));
+    dp = List.filled(s.length, 0).map((e) => List.filled(k + 1, kMax)).toList();
     return compression(s, 0, k);
   }
 
@@ -333,7 +292,7 @@ class Solution {
     // Make chars in s[i..j] be same
     // Keep the char that has max freq in this range and remove other chars
     for (int j = i; j < s.length; ++j) {
-      maxFreq = max(maxFreq, ++count[s.codeUnitAt(j)] + 1);
+      maxFreq = max(maxFreq, ++count[s.codeUnitAt(j)]);
       dp[i][k] = min(
           dp[i][k],
           getLength(maxFreq) +
