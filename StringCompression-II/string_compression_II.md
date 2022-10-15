@@ -52,46 +52,49 @@ class Solution {
 
 ```dart
 class Solution {
-  int getLengthOfOptimalCompression(String s, int k) {
-    // dp[i][k] := length of optimal compression of s[i:] w/ at most k deletion
-    // dp.resize(s.length, List<int>(k + 1, kMax));
-    dp = List.filled(s.length, List.filled(k + 1, kMax));
-    return compression(s, 0, k);
+  int n = 127;
+  late List<List<int>> dp;
+  int getLen(int x) {
+    return x == 1
+        ? 0
+        : x < 10
+            ? 1
+            : x < 100
+                ? 2
+                : 3;
   }
 
-  int kMax = 101;
-  late List<List<int>> dp;
+  int helper(String str, int left, int k) {
+    if (k < 0) return n;
+    if (left >= str.length || str.length - left <= k) return 0;
+    if (dp[left][k] != -1) return dp[left][k];
 
-  int compression(String s, int i, int k) {
-    if (k < 0) return kMax;
-    if (i == s.length || s.length - i <= k) return 0;
-    if (dp[i][k] != kMax) return dp[i][k];
-
-    int maxFreq = 0; // Max freq in s[i..j]
-    List<int> count = List.filled(128, 0);
-
-    // Make chars in s[i..j] be same
-    // Keep the char that has max freq in this range and remove other chars
-    for (int j = i; j < s.length; ++j) {
-      maxFreq = max(maxFreq, ++count[s.codeUnitAt(j)] + 1);
-      dp[i][k] = min(
-          dp[i][k],
-          getLength(maxFreq) +
-              compression(s, j + 1, k - (j - i + 1 - maxFreq)));
+    int res = n;
+    List<int> cnt = List.filled(26, 0);
+    for (int j = left, freq = 0; j < str.length; j++) {
+      freq = max(freq, ++cnt[str[j].codeUnitAt(0) - 'a'.codeUnitAt(0)]);
+      res = min(
+        res,
+        1 +
+            getLen(freq) +
+            helper(
+              str,
+              j + 1,
+              k - (j - left + 1 - freq),
+            ),
+      );
     }
 
-    return dp[i][k];
+    return dp[left][k] = res;
   }
 
-  int getLength(int maxFreq) {
-    // The length to compress `maxFreq`
-    if (maxFreq == 1) return 1; // C
-    if (maxFreq < 10) return 2; // [1-9]c
-    if (maxFreq < 100) return 3; // [1-9][0-9]c
-    return 4; // [1-9][0-9][0-9]c
+  int getLengthOfOptimalCompression(String s, int k) {
+
+     dp = List.filled(n, 0).map((e) => List.filled(n, -1)).toList();
+
+    return helper(s, 0, k);
   }
 }
-
 ```
 
 ## Solution - 3 Memoization - Needs Improvement
