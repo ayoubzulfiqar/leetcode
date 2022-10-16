@@ -98,6 +98,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Delete the Middle Node of a Linked List](DeleteTheMiddleNodeOfALinkedList/delete_the_middle_node_of_a_linked_list.dart)
 - [String Compression II](StringCompression-II/string_compression_II.dart)
 - [Add Digits](AddDigits/add_digits.dart)
+- [Minimum Difficulty of a Job Schedule](MinimumDifficultyOfAJobSchedule/minimum_difficulty_of_a_job_schedule.dart)
 
 ## Reach me via
 
