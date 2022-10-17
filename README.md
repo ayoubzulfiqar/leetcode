@@ -99,6 +99,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [String Compression II](StringCompression-II/string_compression_II.dart)
 - [Add Digits](AddDigits/add_digits.dart)
 - [Minimum Difficulty of a Job Schedule](MinimumDifficultyOfAJobSchedule/minimum_difficulty_of_a_job_schedule.dart)
+- [Check if the Sentence Is Pangram](CheckIfTheSentenceIsPangram/check_if_the_sentence_is_pangram.dart)
 
 ## Reach me via
 
