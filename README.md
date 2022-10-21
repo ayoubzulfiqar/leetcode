@@ -103,6 +103,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Count and Say](CountAndSay/count_and_say.dart)
 - [Top K Frequent Words](TopKFrequentWords/top_k_frequent_words.dart)
 - [Integer to Roman](IntegerToRoman/integer_to_roman.dart)
+- [Ugly Number](UglyNumber/ugly_number.dart)
 
 ## Reach me via
 
