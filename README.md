@@ -106,6 +106,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Ugly Number](UglyNumber/ugly_number.dart)
 - [Minimum Window Substring](MinimumWindowSubstring/minimum_window_substring.dart)
 - [Set Mismatch](SetMismatch/set_mismatch.dart)
+- [Maximum Length of a Concatenated String with Unique Characters](MaximumLengthOfAConcatenatedStringWithUniqueCharacters/maximum_length_of_a_concatenated_string_with_unique_characters.dart)
 
 ## Reach me via
 
