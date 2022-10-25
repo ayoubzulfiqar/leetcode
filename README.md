@@ -107,6 +107,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Minimum Window Substring](MinimumWindowSubstring/minimum_window_substring.dart)
 - [Set Mismatch](SetMismatch/set_mismatch.dart)
 - [Maximum Length of a Concatenated String with Unique Characters](MaximumLengthOfAConcatenatedStringWithUniqueCharacters/maximum_length_of_a_concatenated_string_with_unique_characters.dart)
+- [Check If Two String Arrays are Equivalent](CheckIfTwoStringArraysAreEquivalent/check_if_two_string_arrays_are_equivalent.dart)
 
 ## Reach me via
 
