@@ -42,6 +42,7 @@ grid[0][0] == grid[m - 1][n - 1] == 0
 */
 
 import 'dart:collection';
+import 'dart:math';
 
 class A {
 // Runtime: 594 ms, faster than 100.00% of Dart online submissions for Shortest Path in a Grid with Obstacles Elimination.
@@ -98,131 +99,193 @@ class A {
   }
 }
 
-// https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/discuss/1188835/Java-Clean-O(MNK)-Time-BFS-Solution-oror-comparing-with-Dijkstra's
+class B {
+  late int m;
+  late int n;
+  late List<List<int>> grid;
+  List<List<int>> direction = [
+    [1, 0],
+    [0, 1],
+    [-1, 0],
+    [0, -1]
+  ];
+  late List<List<List<int>>> mem;
 
-// class B {
-//   late int m;
-//   late int n;
-//   late List<List<int>> grid;
-//   List<List<int>> direction = [
-//     [1, 0],
-//     [0, 1],
-//     [-1, 0],
-//     [0, -1]
-//   ];
-//   late List<List<List<int>>> mem;
+  late List<List<bool>> visited;
+  int dfs(int x, int y, int k) {
+    if (mem[x][y][k] != 0) {
+      return mem[x][y][k];
+    }
+    if (x == m - 1 && y == n - 1) {
+      return 0;
+    }
+    visited[x][y] = true;
+    int step = double.maxFinite ~/ 2;
+    for (List<int> d in direction) {
+      int newX = x + d[0];
+      int newY = y + d[1];
+      if (newX < 0 ||
+          newX > m - 1 ||
+          newY < 0 ||
+          newY > n - 1 ||
+          visited[newX][newY]) {
+        continue;
+      }
+      if (grid[newX][newY] == 1 && k == 0) {
+        continue;
+      }
+      if (grid[newX][newY] == 1) {
+        step = min(step, dfs(newX, newY, k - 1));
+      } else if (grid[newX][newY] == 0) {
+        step = min(step, dfs(newX, newY, k));
+      }
+    }
+    visited[x][y] = false;
+    mem[x][y][k] =
+        step == double.maxFinite ~/ 2 ? double.maxFinite ~/ 2 : step + 1;
 
-//   late List<List<bool>> visited;
-//   int dfs(int x, int y, int k) {
-//     if (mem[x][y][k] != 0) {
-//       return mem[x][y][k];
-//     }
-//     if (x == m - 1 && y == n - 1) {
-//       return 0;
-//     }
-//     visited[x][y] = true;
-//     int step = double.maxFinite ~/ 2;
-//     for (List<int> d in direction) {
-//       int newX = x + d[0];
-//       int newY = y + d[1];
-//       if (newX < 0 ||
-//           newX > m - 1 ||
-//           newY < 0 ||
-//           newY > n - 1 ||
-//           visited[newX][newY]) {
-//         continue;
-//       }
-//       if (grid[newX][newY] == 1 && k == 0) {
-//         continue;
-//       }
-//       if (grid[newX][newY] == 1) {
-//         step = min(step, dfs(newX, newY, k - 1));
-//       } else if (grid[newX][newY] == 0) {
-//         step = min(step, dfs(newX, newY, k));
-//       }
-//     }
-//     visited[x][y] = false;
-//     mem[x][y][k] =
-//         step == double.maxFinite ~/ 2 ? double.maxFinite ~/ 2 : step + 1;
+    return mem[x][y][k];
+  }
 
-//     return mem[x][y][k];
-//   }
+  int shortestPath(List<List<int>> grid, int k) {
+    m = grid.length;
+    n = grid[0].length;
+    this.grid = grid;
+    // mem = [m][n][k + 1];
+    mem = List<List<List<int>>>.generate(
+      m,
+      (_) => List<List<int>>.generate(
+        n,
+        (_) => List<int>.filled(k + 1, 0, growable: false),
+      ),
+    );
 
-//   int shortestPath(List<List<int>> grid, int k) {
-//     m = grid.length;
-//     n = grid[0].length;
-//     this.grid = grid;
-//     // mem = [m][n][k + 1];
-//     mem = List.filled(m, 0)
-//         .map((e) => List.filled(n, 0))
-//         .map((e) => List.filled(k + 1, 0))
-//         .toList();
+    // visited = [m][n];
+    visited = List.filled(m, 0).map((e) => List.filled(n, false)).toList();
+    if (grid[0][0] == 1) {
+      if (k == 0) {
+        return -1;
+      }
+      k -= 1;
+    }
+    int ans = dfs(0, 0, k);
+    return ans == double.maxFinite ~/ 2 ? -1 : ans;
+  }
+}
 
-//     // visited = [m][n];
-//     visited = List.filled(m, 0).map((e) => List.filled(n, false)).toList();
-//     List<List<int>> array2D = [].map((e) => <int>[]).toList();
-//     if (grid[0][0] == 1) {
-//       if (k == 0) {
-//         return -1;
-//       }
-//       k -= 1;
-//     }
-//     int ans = dfs(0, 0, k);
-//     return ans == double.maxFinite ~/ 2 ? -1 : ans;
-//   }
-// }
+class C {
+  List<List<List<int>>> dp = List<List<List<int>>>.generate(
+    42,
+    (_) => List<List<int>>.generate(
+      42,
+      (_) => List<int>.filled(1609, 0, growable: false),
+    ),
+  );
+  // List<List<List<int>>> dp = [42][42][1609];
 
-// class C {
-//   List<List<List<int>>> dp = [42][42][1609];
+  int MAX = 1e7.toInt();
+  int help(List<List<int>> grid, int x, int y, int z, int k) {
+    //Reached destination
+    if (x == 0 && y == 0) return 0;
 
-//   int MAX = 1e7.toInt();
-//   int help(List<List<int>> grid, int x, int y, int z, int k) {
-//     //Reached destination
-//     if (x == 0 && y == 0) return 0;
+    //Already visited/calculated
+    if (dp[x][y][z] != 0) return dp[x][y][z];
 
-//     //Already visited/calculated
-//     if (dp[x][y][z] != 0) return dp[x][y][z];
+    //Cant remove any more obstacles
+    if (grid[x][y] == 1 && z == 0) return MAX;
 
-//     //Cant remove any more obstacles
-//     if (grid[x][y] == 1 && z == 0) return MAX;
+    //Manhattan optimization
+    if (z >= x + y) return dp[x][y][z] = x + y;
 
-//     //Manhattan optimization
-//     if (z >= x + y) return dp[x][y][z] = x + y;
+    //Make sure to take direction left and up before right and top
+    List<List<int>> dirs = [
+      [-1, 0],
+      [0, -1],
+      [1, 0],
+      [0, 1]
+    ];
 
-//     //Make sure to take direction left and up before right and top
-//     List<List<int>> dirs = [
-//       [-1, 0],
-//       [0, -1],
-//       [1, 0],
-//       [0, 1]
-//     ];
+    //Setting dp[x][y][z] to MAX so that it does not gets calculated again
+    dp[x][y][z] = MAX;
 
-//     //Setting dp[x][y][z] to MAX so that it does not gets calculated again
-//     dp[x][y][z] = MAX;
+    for (List<int> dir in dirs) {
+      //DFS valid condition
+      if (x + dir[0] >= 0 &&
+          x + dir[0] < grid.length &&
+          y + dir[1] >= 0 &&
+          y + dir[1] < grid[0].length) {
+        dp[x][y][z] = min(dp[x][y][z],
+            help(grid, x + dir[0], y + dir[1], z - grid[x][y], k) + 1);
+      }
+    }
+    //If not possible
+    if (z == k &&
+        x == grid.length - 1 &&
+        y == grid[0].length - 1 &&
+        dp[x][y][z] == MAX) return -1;
+    return dp[x][y][z];
+  }
 
-//     for (List<int> dir in dirs) {
-//       //DFS valid condition
-//       if (x + dir[0] >= 0 &&
-//           x + dir[0] < grid.length &&
-//           y + dir[1] >= 0 &&
-//           y + dir[1] < grid[0].length) {
-//         dp[x][y][z] = min(dp[x][y][z],
-//             help(grid, x + dir[0], y + dir[1], z - grid[x][y], k) + 1);
-//       }
-//     }
-//     //If not possible
-//     if (z == k &&
-//         x == grid.length - 1 &&
-//         y == grid[0].length - 1 &&
-//         dp[x][y][z] == MAX) return -1;
-//     return dp[x][y][z];
-//   }
-
-//   int shortestPath(List<List<int>> grid, int k) {
-//     return help(grid, grid.length - 1, grid[0].length - 1, k, k);
-//   }
-// }
+  int shortestPath(List<List<int>> grid, int k) {
+    return help(grid, grid.length - 1, grid[0].length - 1, k, k);
+  }
+}
 
 // class D {
-//   int shortestPath(List<List<int>> grid, int k) {}
+//   List<List<int>> DIRECTIONS = [
+//     [1, 0],
+//     [-1, 0],
+//     [0, -1],
+//     [0, 1]
+//   ];
+//   int shortestPath(List<List<int>> grid, int k) {
+//       int m = grid.length, n = grid[0].length;
+
+//         // int[][][] dists = new int[m][n][k+1];
+//         List<List<List<int>>> dists =List<List<List<int>>>.generate(
+//     m,
+//     (_) => List<List<int>>.generate(
+//       n,
+//       (_) => List<int>.filled(k + 1, 0, growable: false),
+//     ),
+//   );
+//         for (List<List<int>> dist in dists)
+//             for (List<int> d in dist)
+//                 // Arrays.fill(d, Integer.MAX_VALUE);
+//                 List.filled(d, double.maxFinite.toInt());
+
+//         Arrays.fill(dists[0][0], 0);
+
+//         // min-heap storing {i, j, # obstacles eliminated, dist}, sorted by distance to (0,0)
+//         Queue<List<int>> heap = Queue((a,b) => a[3] - b[3]);
+//         heap.offer(new int[]{0, 0, 0, 0});
+
+//         while (heap.isNotEmpty) {
+//             List<int> curr = heap.poll();
+//             if (curr[0] == m-1 && curr[1] == n-1) continue;
+
+//             for (List<int> dir in DIRECTIONS) {
+//                 int newX = curr[0] + dir[0];
+//                 int newY = curr[1] + dir[1];
+
+//                 // 1). continue if out of bound
+//                 if (newX < 0 || newY < 0 || newX >= m || newY >= n) continue;
+
+//                 // 2). continue if out of elimation
+//                 int newK = curr[2] + grid[newX][newY];
+//                 if (newK > k) continue;
+
+//                 // 3). continue if we have more optimal result
+//                 int newDist = curr[3] + 1;
+//                 if (dists[newX][newY][newK] <= newDist) continue;
+
+//                 dists[newX][newY][newK] = newDist;
+//                 heap.offer([newX, newY, newK, newDist]);
+//             }
+//         }
+
+//         int res = dists[m-1][n-1][0];
+//         for (int i = 1; i <= k; i++) res = Math.min(res, dists[m-1][n-1][i]);
+//         return (res == Integer.MAX_VALUE) ? -1 : res;
+//   }
 // }
