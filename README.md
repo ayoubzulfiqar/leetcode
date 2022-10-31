@@ -113,6 +113,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Group Anagrams](GroupAnagrams/group_anagrams.dart)
 - [Earliest Possible Day of Full Bloom](EarliestPossibleDayOfFullBloom/earliest_possible_day_of_full_bloom.dart)
 - [Shortest Path in a Grid with Obstacles Elimination](ShortestPathInAGridWithObstaclesElimination/shortest_path_in_a_grid_with_obstacles_elimination.dart)
+- [Toeplitz Matrix](ToeplitzMatrix/toeplitz_matrix.dart)
 
 ## Reach me via
 
