@@ -115,6 +115,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Shortest Path in a Grid with Obstacles Elimination](ShortestPathInAGridWithObstaclesElimination/shortest_path_in_a_grid_with_obstacles_elimination.dart)
 - [Toeplitz Matrix](ToeplitzMatrix/toeplitz_matrix.dart)
 - [Missing Number](MissingNumber/missing_number.dart)
+- [First Bad Version](FirstBadVersion/first_bad_version.dart)
 
 ## Reach me via
 
