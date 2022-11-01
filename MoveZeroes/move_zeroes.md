@@ -1,4 +1,4 @@
-# 🔥 Move Zeroes 🔥 || Simple Fast and Easy || with Explanation
+# 🔥 Move Zeroes 🔥 || 3 Approaches || Simple Fast and Easy || with Explanation
 
 ## Solution - 1
 
