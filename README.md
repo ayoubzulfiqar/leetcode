@@ -118,6 +118,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [First Bad Version](FirstBadVersion/first_bad_version.dart)
 - [Move Zeroes](MoveZeroes/move_zeroes.dart)
 - [Where Will the Ball Fall](WhereWillTheBallFall/where_will_the_ball_fall.dart)
+- [Word Pattern](WordPattern/word_pattern.dart)
 
 ## Reach me via
 
