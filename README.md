@@ -116,6 +116,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Toeplitz Matrix](ToeplitzMatrix/toeplitz_matrix.dart)
 - [Missing Number](MissingNumber/missing_number.dart)
 - [First Bad Version](FirstBadVersion/first_bad_version.dart)
+- [Move Zeroes](MoveZeroes/move_zeroes.dart)
 
 ## Reach me via
 
