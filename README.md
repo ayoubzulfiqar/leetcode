@@ -120,6 +120,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Where Will the Ball Fall](WhereWillTheBallFall/where_will_the_ball_fall.dart)
 - [Word Pattern](WordPattern/word_pattern.dart)
 - [Nim Game](NimGame/nim_game.dart)
+- [Range Sum Query - Immutable](RangeSumQuery-Immutable/range_sum_query_immutable.dart)
+- [Minimum Genetic Mutation](MinimumGeneticMutation/minimum_genetic_mutation.dart)
 
 ## Reach me via
 
