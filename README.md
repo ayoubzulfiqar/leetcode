@@ -122,6 +122,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [Nim Game](NimGame/nim_game.dart)
 - [Range Sum Query - Immutable](RangeSumQuery-Immutable/range_sum_query_immutable.dart)
 - [Minimum Genetic Mutation](MinimumGeneticMutation/minimum_genetic_mutation.dart)
+- [Longest Palindrome by Concatenating Two Letter Words](LongestPalindromeByConcatenatingTwoLetterWords/longest_palindrome_by_concatenating_two_letter_words.dart)
 
 ## Reach me via
 
