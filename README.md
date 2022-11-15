@@ -128,6 +128,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**947.** Most Stones Removed with Same Row or Column](MostStonesRemovedWithSameRowOrColumn/most_stones_removed_with_same_row_or_column.dart)
 - [**222.** Count Complete Tree Nodes](CountCompleteTreeNodes/count_complete_tree_nodes.dart)
 - [**326.** Power of Three](PowerOfThree/power_of_three.dart)
+- [**338.** Counting Bits](CountingBits/counting_bits.dart)
 
 ## Reach me via
 
