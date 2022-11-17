@@ -132,6 +132,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**374.** Guess Number Higher or Lower](GuessNumberHigherOrLower/guess_number_higher_or_lower.dart)
 - [**342.** Power of Four](PowerOfFour/power_of_four.dart)
 - [**344.** Reverse String](ReverseString/reverse_string.dart)
+- [**349.** Intersection of Two Arrays](IntersectionOfTwoArrays/intersection_of_two_arrays.dart)
 
 ## Reach me via
 
