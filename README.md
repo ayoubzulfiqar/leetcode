@@ -129,6 +129,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**222.** Count Complete Tree Nodes](CountCompleteTreeNodes/count_complete_tree_nodes.dart)
 - [**326.** Power of Three](PowerOfThree/power_of_three.dart)
 - [**338.** Counting Bits](CountingBits/counting_bits.dart)
+- [**374.** Guess Number Higher or Lower](GuessNumberHigherOrLower/guess_number_higher_or_lower.dart)
 
 ## Reach me via
 
