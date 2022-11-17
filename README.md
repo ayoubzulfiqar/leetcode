@@ -130,6 +130,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**326.** Power of Three](PowerOfThree/power_of_three.dart)
 - [**338.** Counting Bits](CountingBits/counting_bits.dart)
 - [**374.** Guess Number Higher or Lower](GuessNumberHigherOrLower/guess_number_higher_or_lower.dart)
+- [**342.** Power of Four](PowerOfFour/power_of_four.dart)
 
 ## Reach me via
 
