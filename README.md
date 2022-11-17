@@ -134,6 +134,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**344.** Reverse String](ReverseString/reverse_string.dart)
 - [**349.** Intersection of Two Arrays](IntersectionOfTwoArrays/intersection_of_two_arrays.dart)
 - [**223.** Rectangle Area](RectangleArea/rectangle_area.dart)
+- [**350.** Intersection of Two Arrays II](IntersectionOfTwoArraysII/intersection_of_two_arrays_II.dart)
 
 ## Reach me via
 
