@@ -137,6 +137,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**350.** Intersection of Two Arrays II](IntersectionOfTwoArraysII/intersection_of_two_arrays_II.dart)
 - [**367.** Valid Perfect Square](ValidPerfectSquare/valid_perfect_square.dart)
 - [**383.** Ransom Note](RansomNote/ransom_note.dart)
+- [**587.** Erect the Fence](ErectTheFence/erect_the_fence.dart)
 
 ## Reach me via
 
