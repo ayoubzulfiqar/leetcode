@@ -139,6 +139,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**383.** Ransom Note](RansomNote/ransom_note.dart)
 - [**587.** Erect the Fence](ErectTheFence/erect_the_fence.dart)
 - [**387.** First Unique Character in a String](FirstUniqueCharacterInAString/first_unique_character_in_a_string.dart)
+- [**389.** Find the Difference](FindTheDifference/find_the_difference.dart)
 
 ## Reach me via
 
