@@ -141,6 +141,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**387.** First Unique Character in a String](FirstUniqueCharacterInAString/first_unique_character_in_a_string.dart)
 - [**389.** Find the Difference](FindTheDifference/find_the_difference.dart)
 - [**224.** Basic Calculator](BasicCalculator/basic_calculator.dart)
+- [**1926.** Nearest Exit from Entrance in Maze](NearestExitFromEntranceInMaze/nearest_exit_from_entrance_in_maze.dart)
 
 ## Reach me via
 
