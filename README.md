@@ -143,6 +143,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**224.** Basic Calculator](BasicCalculator/basic_calculator.dart)
 - [**1926.** Nearest Exit from Entrance in Maze](NearestExitFromEntranceInMaze/nearest_exit_from_entrance_in_maze.dart)
 - [**295.** Find Median from Data Stream](FindMedianFromDataStream/find_median_from_data_stream.dart)
+- [**279.** Perfect Squares](PerfectSquares/perfect_squares.dart)
 
 ## Reach me via
 
