@@ -72,7 +72,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**203.** Remove Linked List Elements](RemoveLinkedListElements/remove_linked_list_elements.dart)
 - [**1578.** Minimum Time to Make Rope Colorful](MinimumTimeToMakeRopeColorful/minimum_time_to_make_rope_colorful.dart)
 - [**205.** Isomorphic Strings](IsomorphicStrings/isomorphic_strings.dart)
-- [**623.**  Add One Row to Tree](AddOneRowToTree/add_one_row_to_tree.dart)
+- [**623.** Add One Row to Tree](AddOneRowToTree/add_one_row_to_tree.dart)
 - [**981.** Time Based Key-Value Store](TimeBasedKeyValueStore/time_based_key_value_store.dart)
 - [**732.** My Calendar III](MyCalendar-III/my_calendar_III.dart)
 - [**206.** Reverse Linked List](ReverseLinkedList/reverse_linked_list.dart)
@@ -145,6 +145,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**295.** Find Median from Data Stream](FindMedianFromDataStream/find_median_from_data_stream.dart)
 - [**279.** Perfect Squares](PerfectSquares/perfect_squares.dart)
 - [**36.** Valid Sudoku](ValidSudoku/valid_sudoku.dart)
+- [**79.** Word Search](WordSearch/word_search.dart)
+- [**907.** Sum of Sub-Array Minimums](SumOfSubarrayMinimums\sum_of_subarray_minimums.dart)
 
 ## Reach me via
 
