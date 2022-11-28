@@ -149,6 +149,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**907.** Sum of Sub-Array Minimums](SumOfSubarrayMinimums/sum_of_subarray_minimums.dart)
 - [**1235.** Maximum Profit in Job Scheduling](MaximumProfitInJobScheduling/maximum_profit_in_job_scheduling.dartmaximum_profit_in_job_scheduling.dart)
 - [**446.** Arithmetic Slices II - Subsequence](ArithmeticSlicesII-Subsequence/arithmetic_slices_II_subsequence.dart)
+- [**2225.** Find Players With Zero or One Losses](FindPlayersWithZeroOrOneLosses/find_players_with_zero_or_one_losses.dart)
 
 ## Reach me via
 
