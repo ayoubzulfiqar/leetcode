@@ -151,6 +151,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**446.** Arithmetic Slices II - Subsequence](ArithmeticSlicesII-Subsequence/arithmetic_slices_II_subsequence.dart)
 - [**2225.** Find Players With Zero or One Losses](FindPlayersWithZeroOrOneLosses/find_players_with_zero_or_one_losses.dart)
 - [**380.** Insert Delete GetRandom O(1)](InsertDeleteGetRandom-01/insert_delete_getrandom_O1.dart)
+- [**1207.** Unique Number of Occurrences](UniqueNumberOfOccurrences/unique_number_of_occurrences.dart)
 
 ## Reach me via
 
