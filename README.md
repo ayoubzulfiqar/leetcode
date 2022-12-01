@@ -153,6 +153,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**380.** Insert Delete GetRandom O(1)](InsertDeleteGetRandom-01/insert_delete_getrandom_O1.dart)
 - [**1207.** Unique Number of Occurrences](UniqueNumberOfOccurrences/unique_number_of_occurrences.dart)
 - [**392.** Is Subsequence](IsSubsequence/is_subsequence.dart)
+- [**1704.** Determine if String Halves Are Alike](DetermineIfStringHalvesAreAlike/determine_if_string_halves_are_alike.dart)
 
 ## Reach me via
 

@@ -65,13 +65,13 @@ class B {
 }
 
 class C {
-  int isSubs(String s1, String s2, int i, int j, List<List<int>> t) {
+  int isSubString(String s1, String s2, int i, int j, List<List<int>> t) {
     if (i == 0 || j == 0) return 0;
     if (t[i][j] != -1) return t[i][j];
     if (s1[i - 1] == s2[j - 1])
-      return t[i][j] = 1 + isSubs(s1, s2, i - 1, j - 1, t);
+      return t[i][j] = 1 + isSubString(s1, s2, i - 1, j - 1, t);
     else
-      return t[i][j] = isSubs(s1, s2, i, j - 1, t);
+      return t[i][j] = isSubString(s1, s2, i, j - 1, t);
   }
 
   bool isSubsequence(String s, String t) {
@@ -85,7 +85,7 @@ class C {
     List<List<int>> f =
         List.filled(m + 1, 0).map((e) => List.filled(n + 1, -1)).toList();
 
-    if (isSubs(s, t, m, n, f) == m) return true;
+    if (isSubString(s, t, m, n, f) == m) return true;
     return false;
   }
 }
