@@ -155,6 +155,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**392.** Is Subsequence](IsSubsequence/is_subsequence.dart)
 - [**1704.** Determine if String Halves Are Alike](DetermineIfStringHalvesAreAlike/determine_if_string_halves_are_alike.dart)
 - [**1657.** Determine if Two Strings Are Close](DetermineIfTwoStringsAreClose/determine_if_two_strings_are_close.dart)
+- [**401.** Binary Watch](BinaryWatch/binary_watch.dart)
 
 ## Reach me via
 
