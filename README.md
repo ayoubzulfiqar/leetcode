@@ -157,6 +157,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1657.** Determine if Two Strings Are Close](DetermineIfTwoStringsAreClose/determine_if_two_strings_are_close.dart)
 - [**401.** Binary Watch](BinaryWatch/binary_watch.dart)
 - [**451.** Sort Characters By Frequency](SortCharactersByFrequency/sort_characters_by_frequency.dart)
+- [**2256.** Minimum Average Difference](MinimumAverageDifference/minimum_average_difference.dart)
 
 ## Reach me via
 
