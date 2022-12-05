@@ -158,6 +158,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**401.** Binary Watch](BinaryWatch/binary_watch.dart)
 - [**451.** Sort Characters By Frequency](SortCharactersByFrequency/sort_characters_by_frequency.dart)
 - [**2256.** Minimum Average Difference](MinimumAverageDifference/minimum_average_difference.dart)
+- [**876.** Middle of the Linked List](MiddleOfTheLinkedList/middle_of_the_linked_list.dart)
 
 ## Reach me via
 
