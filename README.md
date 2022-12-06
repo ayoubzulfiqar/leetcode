@@ -159,6 +159,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**451.** Sort Characters By Frequency](SortCharactersByFrequency/sort_characters_by_frequency.dart)
 - [**2256.** Minimum Average Difference](MinimumAverageDifference/minimum_average_difference.dart)
 - [**876.** Middle of the Linked List](MiddleOfTheLinkedList/middle_of_the_linked_list.dart)
+- [**328.** Odd Even Linked List](OddEvenLinkedList/odd_even_linked_list.dart)
 
 ## Reach me via
 
