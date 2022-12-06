@@ -33,41 +33,6 @@ func oddEvenList(head *ListNode) *ListNode {
 	return oddList.Next
 }
 
-/*
-
-
-ListNode? oddEvenList(ListNode? head) {
-    if (head == null || head.next == null) {
-      return head;
-    }
-
-    ListNode? evenList = ListNode(-1);
-    ListNode? oddList = ListNode(-1);
-
-    ListNode? currentEven = evenList;
-    ListNode? currentOdd = oddList;
-
-    ListNode? current = head;
-    int i = 1;
-    while (current != null) {
-      if (i % 2 != 0) {
-        currentOdd?.next = current;
-        currentOdd = current;
-        current = current.next;
-      } else {
-        currentEven?.next = current;
-        currentEven = current;
-        current = current.next;
-      }
-      i++;
-    }
-    currentOdd?.next = evenList.next;
-    currentEven?.next = null;
-    return oddList.next;
-  }
-
-*/
-
 // func oddEvenList(head *ListNode) *ListNode {
 // 	if head == nil {
 // 		return head
