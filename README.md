@@ -160,6 +160,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2256.** Minimum Average Difference](MinimumAverageDifference/minimum_average_difference.dart)
 - [**876.** Middle of the Linked List](MiddleOfTheLinkedList/middle_of_the_linked_list.dart)
 - [**328.** Odd Even Linked List](OddEvenLinkedList/odd_even_linked_list.dart)
+- [**938.** Range Sum of BST](RangeSumOfBST/range_sum_of_bst.dart)
 
 ## Reach me via
 
