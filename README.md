@@ -162,6 +162,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**328.** Odd Even Linked List](OddEvenLinkedList/odd_even_linked_list.dart)
 - [**938.** Range Sum of BST](RangeSumOfBST/range_sum_of_bst.dart)
 - [**872.** Leaf-Similar Trees](LeafSimilarTrees/leaf_similar_trees.dart)
+- [**1026.** Maximum Difference Between Node and Ancestor](MaximumDifferenceBetweenNodeAndAncestor/maximum_difference_between_node_and_ancestor.dart)
 
 ## Reach me via
 
