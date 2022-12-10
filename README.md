@@ -163,6 +163,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**938.** Range Sum of BST](RangeSumOfBST/range_sum_of_bst.dart)
 - [**872.** Leaf-Similar Trees](LeafSimilarTrees/leaf_similar_trees.dart)
 - [**1026.** Maximum Difference Between Node and Ancestor](MaximumDifferenceBetweenNodeAndAncestor/maximum_difference_between_node_and_ancestor.dart)
+- [**1339.** Maximum Product of Splitted Binary Tree](MaximumProductOfSplittedBinaryTree/maximum_product_of_splitted_binary_tree.dart)
 
 ## Reach me via
 
