@@ -166,6 +166,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1339.** Maximum Product of Splitted Binary Tree](MaximumProductOfSplittedBinaryTree/maximum_product_of_splitted_binary_tree.dart)
 - [**124.** Binary Tree Maximum Path Sum](BinaryTreeMaximumPathSum/binary_tree_maximum_path_sum.dart)
 - [**931.** Minimum Falling Path Sum](MinimumFallingPathSum/minimum_falling_path_sum.dart)
+- [**198.** House Robber](HouseRobber/house_robber.dart)
 
 ## Reach me via
 
