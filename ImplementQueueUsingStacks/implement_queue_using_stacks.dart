@@ -15,7 +15,6 @@
 // You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid.
 // Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
 
-
 // Example 1:
 
 // Input
@@ -32,13 +31,11 @@
 // myQueue.pop(); // return 1, queue is [2]
 // myQueue.empty(); // return false
 
-
 // Constraints:
 
 // 1 <= x <= 9
 // At most 100 calls will be made to push, pop, peek, and empty.
 // All the calls to pop and peek are valid.
-
 
 // Follow-up: Can you implement the queue such that each operation is amortized O(1) time complexity? In other words, performing n operations will take overall O(n) time even if one of those operations may take longer.
 
@@ -78,7 +75,6 @@
 
 // /*
 
-
 // class MyQueue {
 
 //   MyQueue() {
@@ -101,7 +97,6 @@
 
 //   }
 // }
-
 
 // */
 
@@ -196,3 +191,5 @@
 // }
 
 // enum _Phase { push, pop }
+
+
