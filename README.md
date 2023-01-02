@@ -174,6 +174,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**841.** Keys and Rooms](KeysAndRooms/keys_and_rooms.dart)
 - [**886.** Possible Bipartition](PossibleBipartition/possible_bipartition.dart)
 - [**980.** Unique Paths III](UniquePathsIII/unique_paths_iii.dart)
+- [**520.** Detect Capital](DetectCapital/detect_capital.dart)
 
 ## Reach me via
 
