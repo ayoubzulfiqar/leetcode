@@ -43,32 +43,3 @@ func isSorted(strs []string, col int) bool {
 	}
 	return true
 }
-
-/*
-
-  int minDeletionSize(List<String> strs) {
-    int deleted = 0;
-    if (strs.length == 0) return deleted;
-    int rowSize = strs[0].length;
-
-    for (int col = 0; col < rowSize; col++) {
-      if (!isSorted(strs, col)) deleted++;
-    }
-
-    return deleted;
-  }
-
-  bool isSorted(List<String> strs, int col) {
-    int N = strs.length;
-    int prev = 0;
-    for (int i = 0; i < N; i++) {
-      int c = strs[i].codeUnitAt(col);
-      //If out of order
-      if (c < prev) return false;
-      //update prev
-      prev = c;
-    }
-
-    return true; //In order the whole time
-  }
-*/
