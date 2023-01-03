@@ -175,6 +175,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**886.** Possible Bipartition](PossibleBipartition/possible_bipartition.dart)
 - [**980.** Unique Paths III](UniquePathsIII/unique_paths_iii.dart)
 - [**520.** Detect Capital](DetectCapital/detect_capital.dart)
+- [**944.** Delete Columns to Make Sorted](DeleteColumnsToMakeSorted/delete_columns_to_make_sorted.dart)
 
 ## Reach me via
 
