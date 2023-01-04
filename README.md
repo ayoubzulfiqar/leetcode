@@ -53,8 +53,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**136.** Single Number](SingleNumber/single_number.dart)
 - [**19.** Remove Nth Node From End of List](RemoveNthNodeFromEndOfList/remove_nth_node_from_end_of_list.dart)
 - [**141.** Linked List Cycle](LinkedListCycle/linked_list_cycle.dart)
-- [**144.** Binary Tree Preorder Traversal](BinaryTreePreorderTraversal/binary_tree_preorder_traversal.dart)
-- [**145.** Binary Tree Postorder Traversal](BinaryTreePostorderTraversal/binary_tree_postorder_traversal.dart)
+- [**144.** Binary Tree PreOrder Traversal](BinaryTreePreorderTraversal/binary_tree_preorder_traversal.dart)
+- [**145.** Binary Tree PostOrder Traversal](BinaryTreePostorderTraversal/binary_tree_postorder_traversal.dart)
 - [**157.** Read N Characters Given Read4](ReadNCharactersGivenRead4/read_n_characters_given_read4.dart)
 - [**8160.** Intersection of Two Linked Lists](IntersectionOfTwoLinkedLists/intersection_of_two_linked_lists.dart)
 - [**163.** Missing Ranges](MissingRanges/missing_ranges.dart)
@@ -176,6 +176,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**980.** Unique Paths III](UniquePathsIII/unique_paths_iii.dart)
 - [**520.** Detect Capital](DetectCapital/detect_capital.dart)
 - [**944.** Delete Columns to Make Sorted](DeleteColumnsToMakeSorted/delete_columns_to_make_sorted.dart)
+- [**2244.** Minimum Rounds to Complete All Tasks](MinimumRoundsToCompleteAllTasks/minimum_rounds_to_complete_all_tasks.dart)
 
 ## Reach me via
 
