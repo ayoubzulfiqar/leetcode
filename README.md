@@ -177,6 +177,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**520.** Detect Capital](DetectCapital/detect_capital.dart)
 - [**944.** Delete Columns to Make Sorted](DeleteColumnsToMakeSorted/delete_columns_to_make_sorted.dart)
 - [**2244.** Minimum Rounds to Complete All Tasks](MinimumRoundsToCompleteAllTasks/minimum_rounds_to_complete_all_tasks.dart)
+- [**452.** Minimum Number of Arrows to Burst Balloons](MinimumNumberOfArrowsToBurstBalloons/minimum_number_of_arrows_to_burst_balloons.dart)
 
 ## Reach me via
 
