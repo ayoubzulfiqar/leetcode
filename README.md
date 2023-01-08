@@ -179,6 +179,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2244.** Minimum Rounds to Complete All Tasks](MinimumRoundsToCompleteAllTasks/minimum_rounds_to_complete_all_tasks.dart)
 - [**452.** Minimum Number of Arrows to Burst Balloons](MinimumNumberOfArrowsToBurstBalloons/minimum_number_of_arrows_to_burst_balloons.dart)
 - [**1833.** Maximum Ice Cream Bars](MaximumIceCreamBars/maximum_ice_cream_bars.dart)
+- [**149.** Max Points on a Line](MaxPointsOnALine/max_points_on_a_line.dart)
 
 ## Reach me via
 
