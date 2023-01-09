@@ -8,12 +8,12 @@ type TreeNode struct {
 
 /*
 
-Runtime: 0 ms, faster than 100.00% of Go online submissions for Binary Tree Preorder Traversal.
-Memory Usage: 2.1 MB, less than 40.85% of Go online submissions for Binary Tree Preorder Traversal.
+Runtime: 0 ms, faster than 100.00% of Go online submissions for Binary Tree PreOrder Traversal.
+Memory Usage: 2.1 MB, less than 40.85% of Go online submissions for Binary Tree PreOrder Traversal.
 
 */
 
-func preorderTraversal(root *TreeNode) []int {
+func preOrderTraversal(root *TreeNode) []int {
 	var res []int
 	helper(root, &res)
 	return res
