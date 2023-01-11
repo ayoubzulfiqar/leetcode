@@ -170,7 +170,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1143.** Longest Common Subsequence](LongestCommonSubsequence/longest_common_subsequence.dart)
 - [**150.** Evaluate Reverse Polish Notation](EvaluateReversePolishNotation/evaluate_reverse_polish_notation.dart)
 - [**739.** Daily Temperatures](DailyTemperatures/daily_temperatures.dart)
-- [**1971.* Find if Path Exists in Graph](FindIfPathExistsInGraph/find_if_path_exists_in_graph.dart)
+- [**1971.** Find if Path Exists in Graph](FindIfPathExistsInGraph/find_if_path_exists_in_graph.dart)
 - [**841.** Keys and Rooms](KeysAndRooms/keys_and_rooms.dart)
 - [**886.** Possible Bipartition](PossibleBipartition/possible_bipartition.dart)
 - [**980.** Unique Paths III](UniquePathsIII/unique_paths_iii.dart)
@@ -180,6 +180,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**452.** Minimum Number of Arrows to Burst Balloons](MinimumNumberOfArrowsToBurstBalloons/minimum_number_of_arrows_to_burst_balloons.dart)
 - [**1833.** Maximum Ice Cream Bars](MaximumIceCreamBars/maximum_ice_cream_bars.dart)
 - [**149.** Max Points on a Line](MaxPointsOnALine/max_points_on_a_line.dart)
+- [**1443.** Minimum Time to Collect All Apples in a Tree](MinimumTimeToCollectAllApplesInATree/minimum_time_to_collect_all_apples_in_a_tree.dart)
 
 ## Reach me via
 
