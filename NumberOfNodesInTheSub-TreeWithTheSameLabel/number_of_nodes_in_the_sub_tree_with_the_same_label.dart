@@ -184,7 +184,7 @@ class C {
 
 //================
 
-class Node {
+class ANode {
   late String c;
   late int key;
   late List<Node> cs;
@@ -304,50 +304,108 @@ class E {
   }
 }
 
-class TreeNode {
-  late String val;
-  late int index;
-  late List<TreeNode> child;
-  TreeNode(String val, int index) {
-    this.val = val;
-    this.index = index;
-    child = [];
+class Node {
+  late List<Node> next;
+  late int id;
+
+  Node(int id) {
+    next = [];
+    this.id = id;
   }
 }
 
 class F {
-  late List<int> res;
-  late List<bool> visited;
   List<int> countSubTrees(int n, List<List<int>> edges, String labels) {
-    List<TreeNode> nodes = List.filled(n, TreeNode(labels, 0));
-    // nodes.add(n);
-    for (int i = 0; i < n; ++i) nodes[i] = new TreeNode(labels[i], i);
-    for (int i = 0; i < n - 1; ++i) {
-      int a = edges[i][0], b = edges[i][1];
-      nodes[a].child.add(nodes[b]);
-      nodes[b].child.add(nodes[a]);
+    List<int> res = List.filled(n, 0, growable: true);
+    HashMap<int, Node> map = HashMap();
+    Node root = new Node(0);
+    map[0] = root;
+    for (List<int> e in edges) {
+      if (!map.containsKey(e[0])) {
+        Node t = new Node(e[0]);
+        map[e[0]] = t;
+        map[e[1]]?.next.add(t);
+      } else {
+        Node t = new Node(e[1]);
+        map[e[1]] = t;
+        map[e[0]]?.next.add(t);
+      }
     }
-    TreeNode root = nodes[0];
-    res = List.filled(n, 0);
-    visited = List.filled(n, false);
-    List.filled(res.length, 1);
-    dfs(root);
+    List<String> arr = labels.split("");
+    dfs(root, arr, res);
     return res;
   }
 
-  Map<String, int> dfs(TreeNode root) {
-    HashMap<String, int> map = HashMap();
-    if (root == null) return map;
-    visited[root.index] = true;
-    map[root.val] = (map[root.val] ?? 0) + 1;
-    for (TreeNode child in root.child) {
-      if (visited[child.index]) continue;
-      Map<String, int> temp = dfs(child);
-      if (temp.containsKey(root.val)) res[root.index] += temp[root.val]!;
-      for (String key in temp.keys) {
-        map[key] = (map[key] ?? 0) + temp[key]!;
+  List<int> dfs(Node? node, List<String> arr, List<int> res) {
+    if (node == null) {
+      return [];
+    }
+    if (node.next.length == 0) {
+      List<int> record = List.filled(26, 0);
+      record[arr[node.id].codeUnitAt(0) - 'a'.codeUnitAt(0)]++;
+      res[node.id] = record[arr[node.id].codeUnitAt(0) - 'a'.codeUnitAt(0)];
+      return record;
+    }
+    List<int> r = List.filled(26, 0);
+    for (Node n in node.next) {
+      List<int> t = dfs(n, arr, res);
+      for (int i = 0; i < 26; i++) {
+        r[i] += t[i];
       }
     }
-    return map;
+    r[arr[node.id].codeUnitAt(0) - 'a'.codeUnitAt(0)]++;
+    res[node.id] = r[arr[node.id].codeUnitAt(0) - 'a'.codeUnitAt(0)];
+    return r;
   }
 }
+/*
+
+
+class Solution {
+    public int[] countSubTrees(int n, int[][] edges, String labels) {
+        int[] res = new int[n];
+        Map<Integer, Node> map = new HashMap<>();
+        Node root = new Node(0);
+        map.put(0, root);
+        for (int[] e : edges) {
+            if (!map.containsKey(e[0])) {
+                Node t = new Node(e[0]);
+                map.put(e[0], t);
+                map.get(e[1]).nexts.add(t);
+            } else {
+                Node t = new Node(e[1]);
+                map.put(e[1], t);
+                map.get(e[0]).nexts.add(t);
+            }
+        }
+        char[] arr = labels.toCharArray();
+        dfs(root, arr, res);
+        return res;
+    }
+
+    int[] dfs(Node node, char[] arr, int[] res) {
+        if (node == null) {
+            return null;
+        }
+        if (node.nexts.size() == 0) {
+            int[] record = new int[26];
+            record[arr[node.id] - 'a']++;
+            res[node.id] = record[arr[node.id] - 'a'];
+            return record;
+        }
+        int[] r = new int[26];
+        for (Node n : node.nexts) {
+            int[] t = dfs(n, arr, res);
+            for (int i = 0; i < 26; i++) {
+                r[i] += t[i];
+            }
+        }
+        r[arr[node.id] - 'a']++;
+        res[node.id] = r[arr[node.id] - 'a'];
+        return r;
+    }
+    
+    
+}
+
+*/
