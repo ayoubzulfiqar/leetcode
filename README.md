@@ -181,6 +181,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1833.** Maximum Ice Cream Bars](MaximumIceCreamBars/maximum_ice_cream_bars.dart)
 - [**149.** Max Points on a Line](MaxPointsOnALine/max_points_on_a_line.dart)
 - [**1443.** Minimum Time to Collect All Apples in a Tree](MinimumTimeToCollectAllApplesInATree/minimum_time_to_collect_all_apples_in_a_tree.dart)
+- [**1519.** Number of Nodes in the Sub-Tree With the Same Label](NumberOfNodesInTheSub-TreeWithTheSameLabel/number_of_nodes_in_the_sub_tree_with_the_same_label.dart)
 
 ## Reach me via
 
