@@ -184,68 +184,68 @@ class C {
 
 //================
 
-class ANode {
-  late String c;
-  late int key;
-  late List<Node> cs;
-  late Node? p;
-  Node(int key) {
-    this.key = key;
-    cs = <Node>[];
-    this.p = null;
-  }
-}
+// class ANode {
+//   late String c;
+//   late int key;
+//   late List<Node> cs;
+//   late Node? p;
+//   Node(int key) {
+//     this.key = key;
+//     cs = <Node>[];
+//     this.p = null;
+//   }
+// }
 
-class D {
-  late List<int> res;
-  Node build(int n, List<List<int>> es, String l) {
-    HashMap<int, List<int>> g = HashMap();
-    for (List<int> e in es) {
-      g.putIfAbsent(e[0], () => []);
-      g.putIfAbsent(e[1], () => []);
-      g[e[1]]?.add(e[0]);
-      g[e[0]]?.add(e[1]);
-    }
-    Node root = Node(0);
-    root.c = l[0];
-    Queue<Node> q = Queue();
-    q.add(root);
-    while (!q.isEmpty) {
-      Node current = q.removeLast();
-      for (int neighbor in g[current.key] ?? []) {
-        if (current.p == null || neighbor != current.p?.key) {
-          Node next = Node(neighbor);
-          next.c = l[neighbor];
-          next.p = current;
-          current.cs.add(next);
-          q.add(next);
-        }
-      }
-    }
-    return root;
-  }
+// class D {
+//   late List<int> res;
+//   Node build(int n, List<List<int>> es, String l) {
+//     HashMap<int, List<int>> g = HashMap();
+//     for (List<int> e in es) {
+//       g.putIfAbsent(e[0], () => []);
+//       g.putIfAbsent(e[1], () => []);
+//       g[e[1]]?.add(e[0]);
+//       g[e[0]]?.add(e[1]);
+//     }
+//     Node root = Node(0);
+//     root.c = l[0];
+//     Queue<Node> q = Queue();
+//     q.add(root);
+//     while (!q.isEmpty) {
+//       Node current = q.removeLast();
+//       for (int neighbor in g[current.key] ?? []) {
+//         if (current.p == null || neighbor != current.p?.key) {
+//           Node next = Node(neighbor);
+//           next.c = l[neighbor];
+//           next.p = current;
+//           current.cs.add(next);
+//           q.add(next);
+//         }
+//       }
+//     }
+//     return root;
+//   }
 
-  HashMap<String, int> dfs(Node? node) {
-    HashMap<String, int> map = HashMap();
-    if (node == null) return map;
-    map[node.c] = 1;
-    for (Node child in node.cs) {
-      HashMap<String, int> cHashMap = dfs(child);
-      for (String c in cHashMap.keys) {
-        map[c] = (map[c] ?? 0) + cHashMap[c]!;
-      }
-    }
-    res[node.key] = map[node.c]!;
-    return map;
-  }
+//   HashMap<String, int> dfs(Node? node) {
+//     HashMap<String, int> map = HashMap();
+//     if (node == null) return map;
+//     map[node.c] = 1;
+//     for (Node child in node.cs) {
+//       HashMap<String, int> cHashMap = dfs(child);
+//       for (String c in cHashMap.keys) {
+//         map[c] = (map[c] ?? 0) + cHashMap[c]!;
+//       }
+//     }
+//     res[node.key] = map[node.c]!;
+//     return map;
+//   }
 
-  List<int> countSubTrees(int n, List<List<int>> edges, String labels) {
-    Node root = build(n, edges, labels);
-    res = List.filled(n, 0, growable: true);
-    dfs(root);
-    return res;
-  }
-}
+//   List<int> countSubTrees(int n, List<List<int>> edges, String labels) {
+//     Node root = build(n, edges, labels);
+//     res = List.filled(n, 0, growable: true);
+//     dfs(root);
+//     return res;
+//   }
+// }
 
 class E {
   // Time limit exceed
