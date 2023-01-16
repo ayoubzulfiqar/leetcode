@@ -185,6 +185,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2246.** Longest Path With Different Adjacent Characters](LongestPathWithDifferentAdjacentCharacters/longest_path_with_Different_adjacent_characters.dart)
 - [**1061.** Lexicographically Smallest Equivalent String](LexicographicallySmallestEquivalentString/lexicographically_smallest_equivalent_string.dart)
 - [**2421.** Number of Good Paths](NumberOfGoodPaths/number_of_good_paths.dart)
+- [**57.** Insert Interval](InsertInterval/insert_interval.dart)
 
 ## Reach me via
 
