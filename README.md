@@ -186,6 +186,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1061.** Lexicographically Smallest Equivalent String](LexicographicallySmallestEquivalentString/lexicographically_smallest_equivalent_string.dart)
 - [**2421.** Number of Good Paths](NumberOfGoodPaths/number_of_good_paths.dart)
 - [**57.** Insert Interval](InsertInterval/insert_interval.dart)
+- [**926.** Flip String to Monotone Increasing](FlipStringToMonotoneIncreasing/flip_string_to_monotone_increasing.dart)
 
 ## Reach me via
 
