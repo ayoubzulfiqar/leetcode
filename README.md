@@ -187,6 +187,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2421.** Number of Good Paths](NumberOfGoodPaths/number_of_good_paths.dart)
 - [**57.** Insert Interval](InsertInterval/insert_interval.dart)
 - [**926.** Flip String to Monotone Increasing](FlipStringToMonotoneIncreasing/flip_string_to_monotone_increasing.dart)
+- [**918.** Maximum Sum Circular Sub-Array](MaximumSumCircularSubarray/maximum_sum_circular_subarray.dart)
 
 ## Reach me via
 
