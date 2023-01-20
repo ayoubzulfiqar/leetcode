@@ -189,6 +189,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**926.** Flip String to Monotone Increasing](FlipStringToMonotoneIncreasing/flip_string_to_monotone_increasing.dart)
 - [**918.** Maximum Sum Circular Sub-Array](MaximumSumCircularSubarray/maximum_sum_circular_subarray.dart)
 - [**974.** SubArray Sums Divisible by K](SubarraySumsDivisibleByK/subarray_sums_divisible_by_k.dart)
+- [**491.** Non-decreasing Subsequences](Non-DecreasingSubsequences/non_decreasing_subsequences.dart)
 
 ## Reach me via
 
