@@ -191,6 +191,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**974.** SubArray Sums Divisible by K](SubarraySumsDivisibleByK/subarray_sums_divisible_by_k.dart)
 - [**491.** Non-decreasing Subsequences](Non-DecreasingSubsequences/non_decreasing_subsequences.dart)
 - [**93.** Restore IP Addresses](RestoreIPAddresses/restore_ip_addresses.dart)
+- [**131.** Palindrome Partitioning](PalindromePartitioning/palindrome_partitioning.dart)
 
 ## Reach me via
 
