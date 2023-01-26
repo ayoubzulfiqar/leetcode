@@ -194,6 +194,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**131.** Palindrome Partitioning](PalindromePartitioning/palindrome_partitioning.dart)
 - [**909.** Snakes and Ladders](SnakesAndLadders/snakes_and_ladders.dart)
 - [**2359.** Find Closest Node to Given Two Nodes](FindClosestNodeToGivenTwoNodes/find_closest_node_to_given_two_nodes.dart)
+- [**787.** Cheapest Flights Within K Stops](CheapestFlightsWithinKStops/cheapest_flights_within_k_stops.dart)
 
 ## Reach me via
 
