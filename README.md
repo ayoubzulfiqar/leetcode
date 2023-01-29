@@ -197,6 +197,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**787.** Cheapest Flights Within K Stops](CheapestFlightsWithinKStops/cheapest_flights_within_k_stops.dart)
 - [**472.** Concatenated Words](ConcatenatedWords/concatenated_words.dart)
 - [**352.** Data Stream as Disjoint Intervals](DataStreamAsDisjointIntervals/data_stream_as_disjoint_intervals.dart)
+- [**460.** LFU Cache](LFUCache/lfu_cache.dart)
 
 ## Reach me via
 
