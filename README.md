@@ -199,6 +199,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**352.** Data Stream as Disjoint Intervals](DataStreamAsDisjointIntervals/data_stream_as_disjoint_intervals.dart)
 - [**460.** LFU Cache](LFUCache/lfu_cache.dart)
 - [**1137.** N-th Tribonacci Number](N-thTribonacciNumber/n_th_tribonacci_number.dart)
+- [**1626.** Best Team With No Conflicts](BestTeamWithNoConflicts/best_team_with_no_conflicts.dart)
 
 ## Reach me via
 
