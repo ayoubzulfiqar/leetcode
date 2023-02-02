@@ -201,6 +201,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1137.** N-th Tribonacci Number](N-thTribonacciNumber/n_th_tribonacci_number.dart)
 - [**1626.** Best Team With No Conflicts](BestTeamWithNoConflicts/best_team_with_no_conflicts.dart)
 - [**1071.** Greatest Common Divisor of Strings](GreatestCommonDivisorOfStrings/greatest_common_divisor_of_strings.dart)
+- [**953.** Verifying an Alien Dictionary](VerifyingAnAlienDictionary/verifying_an_alien_dictionary.dart)
 
 ## Reach me via
 
