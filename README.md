@@ -203,6 +203,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1071.** Greatest Common Divisor of Strings](GreatestCommonDivisorOfStrings/greatest_common_divisor_of_strings.dart)
 - [**953.** Verifying an Alien Dictionary](VerifyingAnAlienDictionary/verifying_an_alien_dictionary.dart)
 - [**6.** Zigzag Conversion](ZigzagConversion/zigzag_conversion.dart)
+- [**1470.** Shuffle the Array](ShuffleTheArray/shuffle_the_array.dart)
 
 ## Reach me via
 
