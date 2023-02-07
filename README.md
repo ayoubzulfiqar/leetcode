@@ -204,6 +204,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**953.** Verifying an Alien Dictionary](VerifyingAnAlienDictionary/verifying_an_alien_dictionary.dart)
 - [**6.** Zigzag Conversion](ZigzagConversion/zigzag_conversion.dart)
 - [**1470.** Shuffle the Array](ShuffleTheArray/shuffle_the_array.dart)
+- [**904.** Fruit Into Baskets](FruitIntoBaskets/fruit_into_baskets.dart)
 
 ## Reach me via
 
