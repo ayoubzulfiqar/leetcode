@@ -205,6 +205,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**6.** Zigzag Conversion](ZigzagConversion/zigzag_conversion.dart)
 - [**1470.** Shuffle the Array](ShuffleTheArray/shuffle_the_array.dart)
 - [**904.** Fruit Into Baskets](FruitIntoBaskets/fruit_into_baskets.dart)
+- [**45.** Jump Game II](JumpGameII/jump_game_ii.dart)
 
 ## Reach me via
 
