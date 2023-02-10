@@ -207,6 +207,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**904.** Fruit Into Baskets](FruitIntoBaskets/fruit_into_baskets.dart)
 - [**45.** Jump Game II](JumpGameII/jump_game_ii.dart)
 - [**2306.** Naming a Company](NamingACompany/naming_a_company.dart)
+- [**1162.** As Far from Land as Possible](AsFarFromLandAsPossible/as_far_from_land_as_possible.dart)
 
 ## Reach me via
 
