@@ -208,6 +208,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**45.** Jump Game II](JumpGameII/jump_game_ii.dart)
 - [**2306.** Naming a Company](NamingACompany/naming_a_company.dart)
 - [**1162.** As Far from Land as Possible](AsFarFromLandAsPossible/as_far_from_land_as_possible.dart)
+- [**1129.** Shortest Path with Alternating Colors](ShortestPathWithAlternatingColors/shortest_path_with_alternating_colors.dart)
 
 ## Reach me via
 
