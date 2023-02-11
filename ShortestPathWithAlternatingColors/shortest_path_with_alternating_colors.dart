@@ -42,18 +42,6 @@ redEdges[i].length == blueEdges[j].length == 2
 import 'dart:collection';
 import 'dart:math';
 
-void main() {
-  final int n = 3;
-  final List<List<int>> redEdges = [
-    [0, 1],
-    [1, 2]
-  ];
-
-  final a = A();
-  final ans = a.shortestAlternatingPaths(n, redEdges, []);
-  print(ans);
-}
-
 class Node {
   late int number;
   late List<int> blueCities;
