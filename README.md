@@ -210,6 +210,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1162.** As Far from Land as Possible](AsFarFromLandAsPossible/as_far_from_land_as_possible.dart)
 - [**1129.** Shortest Path with Alternating Colors](ShortestPathWithAlternatingColors/shortest_path_with_alternating_colors.dart)
 
+- [**2477.** Minimum Fuel Cost to Report to the Capital](MinimumFuelCostToReportToTheCapital/minimum_fuel_cost_to_report_to_the_capital.dart)
+
 ## Reach me via
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://ayoubzulfiqar3@gmail.com)
