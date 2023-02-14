@@ -161,9 +161,9 @@ class E {
   // }
 
   String reverseStr(String str) {
-    int n = str.length;
+    final int n = str.length;
     // for (int i = 0; i < n / 2; i++) swap(str[i], str[n - i - 1]);
-    var sb = StringBuffer();
+    final StringBuffer sb = StringBuffer();
     for (int i = 0; i < n / 2; i++) {
       sb.writeCharCode(str.codeUnitAt(i));
       //sb.write(str[i], str[n - i - 1]);
