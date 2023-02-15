@@ -211,6 +211,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1129.** Shortest Path with Alternating Colors](ShortestPathWithAlternatingColors/shortest_path_with_alternating_colors.dart)
 - [**2477.** Minimum Fuel Cost to Report to the Capital](MinimumFuelCostToReportToTheCapital/minimum_fuel_cost_to_report_to_the_capital.dart)
 - [**1523.** Count Odd Numbers in an Interval Range](CountOddNumbersInAnIntervalRange/count_odd_numbers_in_an_interval_range.dart)
+- [**989.** Add to Array-Form of Integer](AddToArrayFormOfInteger/add_to_array_form_of_integer.dart)
 
 ## Reach me via
 
