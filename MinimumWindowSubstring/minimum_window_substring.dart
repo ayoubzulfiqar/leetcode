@@ -53,7 +53,7 @@ class A {
     int i = 0, j = 0;
     List<int> cht = List.filled(100, 0);
     int m = s.length,
-        n = t.length,
+        // n = t.length,
         cnt = 0,
         reqcnt = 0,
         min = double.maxFinite.toInt();

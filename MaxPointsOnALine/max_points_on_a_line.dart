@@ -92,14 +92,14 @@ class B {
   }
 
   int maxPoints(List<List<int>> points) {
-    int v = 0;
+    // int v = 0;
     int res = 0;
     int len = points.length;
     if (len < 3) return len;
     for (int i = 0; i + res < len; i++) {
       HashMap<String, int> m = HashMap();
       int x1 = points[i][0], y1 = points[i][1], v = 0, maxv = 0, dups = 0;
-      int nIdentical = 0;
+      // int nIdentical = 0;
       // start with i+1, since if any previous point is on the same line,
       // then this was already calculated then that point was a starting point
       for (int j = i + 1; j < len; j++) {
@@ -151,7 +151,7 @@ class C {
     for (int i = 0; i + res < len; i++) {
       Map<String, int> m = {};
       int x1 = points[i][0], y1 = points[i][1], v = 0, maxV = 0, dups = 0;
-      int nIdentical = 0;
+      // int nIdentical = 0;
       for (int j = i + 1; j < len; j++) {
         int x2 = points[j][0], y2 = points[j][1];
         int dx = x2 - x1, dy = y2 - y1;
