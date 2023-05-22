@@ -53,12 +53,13 @@ class A {
     int sum = 0, maxSum = 0;
     for (int i = 0; i < colors.length; i++) {
       sum += neededTime[i];
-      int max = neededTime[i], count = 0;
+      int max = neededTime[i];
+      // int count = 0;
       for (int j = i + 1;
           j < colors.length && colors.codeUnitAt(i) == colors.codeUnitAt(j);
           j++) {
         sum += neededTime[j];
-        count++;
+        // count++;
         if (neededTime[j] > max) max = neededTime[j];
         i = j;
       }

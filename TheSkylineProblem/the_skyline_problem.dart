@@ -48,7 +48,7 @@ import 'dart:math';
 
 class A {
   List<List<int>> getSkyline(List<List<int>> buildings) {
-    int n = buildings.length;
+    // int n = buildings.length;
     List<int> keys = [];
     for (List<int> building in buildings) {
       keys.add(building[0]);

@@ -45,34 +45,6 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
  */
 
-void main() {
-  final solution = Solution();
-
-  List<int> a = <int>[2, 3, 4];
-  int target = 5;
-
-  final s = solution.twoSum(a, target);
-//  print(s);
-
-// when you print it will show the position of two value
-//their sum will be equal to the target value
-  // print(s);
-
-  // SOLUTION - 2
-
-  final solutions = AlgorithmicSolution();
-  final ss = solutions.solution(a, target);
-  // print(ss);
-
-  final b = A();
-  final ba = b.twoSum(a, target);
-  // print(ba);
-
-  final c = B();
-  final ca = c.twoSum(a, target);
-  print(ca);
-}
-
 /**
  *
  * SOLUTION
@@ -153,18 +125,18 @@ class A {
 // Working perfect in Terminal
 // but runtime error inclusive range error
 
-  List<int> twoSum(List<int> nums, int target) {
-    List<int> result = <int>[];
-    for (var i = 0; i < nums.length; i++) {
-      int complement = target - nums[i];
-      var index = nums.indexOf(complement, i + 1);
-      if (nums[index] + nums[i] == target) {
-        return result = [i, index];
-      }
-      break;
-    }
-    return result;
-  }
+  // List<int> twoSum(List<int> nums, int target) {
+  //   List<int> result = <int>[];
+  //   for (int i = 0; i < nums.length; i++) {
+  //     int complement = target - nums[i];
+  //     var index = nums.indexOf(complement, i + 1);
+  //     if (nums[index] + nums[i] == target) {
+  //       return result = [i, index];
+  //     }
+  //     break;
+  //   }
+  //   return result;
+  // }
 }
 
 class B {
@@ -194,7 +166,6 @@ class B {
       correspondence[value] = i;
 
       // Remember = correspondence[missing] is Our key , correspondence[value] is Our Value
-
     }
     return [];
   }

@@ -228,7 +228,7 @@ class C {
     }
 
     // traverse node values from lowest to highest
-    MapEntry<int, List<int>> curr = tm.entries.first;
+    MapEntry<int, List<int>>? curr = tm.entries.first;
     while (curr != null) {
       List<int> listNodes = curr.value;
 

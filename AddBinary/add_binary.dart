@@ -180,7 +180,7 @@ class E {
       b = temp;
     }
     var carry = '0';
-    int k = 0;
+    // int k = 0;
     int j = b.length - 1;
     for (int i = a.length - 1; i >= 0; i--) {
       if (j >= 0) {

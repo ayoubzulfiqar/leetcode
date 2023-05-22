@@ -51,7 +51,7 @@ class A {
   int maxProd = 0;
   int maxProduct(TreeNode? root) {
     dfs(root);
-    int rootProd = checkMax(root);
+    // int rootProd = checkMax(root);
     return (maxProd % (pow(10, 9) + 7)).toInt();
   }
 

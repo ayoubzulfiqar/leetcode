@@ -39,7 +39,7 @@ class A {
   List<String> topKFrequent(List<String> words, int k) {
     final hashMap = <String, int>{};
 
-    for (final word in words) {
+    for (final String word in words) {
       if (hashMap[word] == null) {
         hashMap[word] = 1;
       } else {

@@ -67,7 +67,7 @@ class A {
     return maxi;
   }
 
-  int iterate(Node root) {
+  int iterate(Node? root) {
     if (root == null) {
       return 0;
     }
