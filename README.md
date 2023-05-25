@@ -214,6 +214,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**989.** Add to Array-Form of Integer](AddToArrayFormOfInteger/add_to_array_form_of_integer.dart)
 - [**1472.** Design Browser History](DesignBrowserHistory/design_browser_history.dart)
 - [**347.** Top K Frequent Elements](TopKFrequentElements/top_k_frequent_elements.dart)
+- [**837.** New 21 Game](New21Game/new_21_game.dart)
 
 ## Reach me via
 
