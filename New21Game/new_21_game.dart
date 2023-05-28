@@ -112,3 +112,7 @@ class Solution {
 
 
 
+class A {
+var a =9;
+
+}
