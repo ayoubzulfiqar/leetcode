@@ -215,6 +215,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1472.** Design Browser History](DesignBrowserHistory/design_browser_history.dart)
 - [**347.** Top K Frequent Elements](TopKFrequentElements/top_k_frequent_elements.dart)
 - [**837.** New 21 Game](New21Game/new_21_game.dart)
+- [**705.**. Design HashSet](DesignHashSet/design_hashSet.dart)
+- [**1396.** Design Underground System](DesignUndergroundSystem/design_underground_system.dart)
 
 ## Reach me via
 
