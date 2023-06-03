@@ -8,14 +8,28 @@ type TreeNode struct {
 }
 
 func sumOfLeftLeaves(root *TreeNode) int {
-	if root == nil {
-		return 0
+	ans := 0
+	for root != nil {
+		if root.Left != nil {
+			pre := root.Left
+			for pre.Right != nil && pre.Right != root {
+				pre = pre.Right
+			}
+
+			if pre.Right == nil {
+				pre.Right = root
+				root = root.Left
+			} else {
+				pre.Right = nil
+
+				if pre == root.Left && pre.Left == nil {
+					ans += pre.Val
+				}
+				root = root.Right
+			}
+		} else {
+			root = root.Right
+		}
 	}
-	var sum int = 0
-	if root.Left != nil && root.Left.Left == nil && root.Right.Left == nil {
-		sum += root.Left.Val
-	}
-	sum += sumOfLeftLeaves(root.Left)
-	sum += sumOfLeftLeaves(root.Right)
-	return sum
+	return ans
 }
