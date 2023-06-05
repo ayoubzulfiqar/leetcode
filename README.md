@@ -220,6 +220,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2101.** Detonate the Maximum Bombs](DetonateTheMaximumBombs/detonate_the_maximum_bombs.dart)
 - [**1376.** Time Needed to Inform All Employees](TimeNeededToInformAllEmployees/time_needed_to_inform_all_employees.dart)
 - [**404.** Sum of Left Leaves](SumOfLeftLeaves/sum_of_left_leaves.dart)
+- [**1232.** Check If It Is a Straight Line](CheckIfItIsAStraightLine/check_if_it_is_a_straight_line.dart)
 
 ## Reach me via
 
