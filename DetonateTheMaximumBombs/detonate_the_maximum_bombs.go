@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -42,5 +41,3 @@ func dfs(node int, visited map[int]bool, graph map[int][]int) {
 		}
 	}
 }
-
-

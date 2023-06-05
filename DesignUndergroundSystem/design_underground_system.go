@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 type UndergroundSystem struct {
 	stationCount int
 	stationId    map[string]int
@@ -56,33 +52,31 @@ func (us *UndergroundSystem) GetAverageTime(startStation string, endStation stri
 	return float64(startDetail[0]) / float64(startDetail[1])
 }
 
-
-
 /*
 
 
 type UndergroundSystem struct {
-    
+
 }
 
 
 func Constructor() UndergroundSystem {
-    
+
 }
 
 
 func (this *UndergroundSystem) CheckIn(id int, stationName string, t int)  {
-    
+
 }
 
 
 func (this *UndergroundSystem) CheckOut(id int, stationName string, t int)  {
-    
+
 }
 
 
 func (this *UndergroundSystem) GetAverageTime(startStation string, endStation string) float64 {
-    
+
 }
 
 */
@@ -94,6 +88,3 @@ func (this *UndergroundSystem) GetAverageTime(startStation string, endStation st
  * obj.CheckOut(id,stationName,t);
  * param_3 := obj.GetAverageTime(startStation,endStation);
  */
-
-
-
