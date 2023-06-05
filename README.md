@@ -221,6 +221,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1376.** Time Needed to Inform All Employees](TimeNeededToInformAllEmployees/time_needed_to_inform_all_employees.dart)
 - [**404.** Sum of Left Leaves](SumOfLeftLeaves/sum_of_left_leaves.dart)
 - [**1232.** Check If It Is a Straight Line](CheckIfItIsAStraightLine/check_if_it_is_a_straight_line.dart)
+- [**405.** Convert a Number to Hexadecimal](ConvertANumberToHexadecimal/convert_a_number_to_hexadecimal.dart)
 
 ## Reach me via
 
