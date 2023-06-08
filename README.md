@@ -224,6 +224,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**405.** Convert a Number to Hexadecimal](ConvertANumberToHexadecimal/convert_a_number_to_hexadecimal.dart)
 - [**1502.** Can Make Arithmetic Progression From Sequence](CanMakeArithmeticProgressionFromSequence/can_make_arithmetic_progression_from_sequence.dart)
 - [**409.** Longest Palindrome](LongestPalindrome/longest_palindrome.dart)
+- [**1351.** Count Negative Numbers in a Sorted Matrix](CountNegativeNumbersInASortedMatrix/count_negative_numbers_in_a_sorted_matrix.dart)
 
 ## Reach me via
 
