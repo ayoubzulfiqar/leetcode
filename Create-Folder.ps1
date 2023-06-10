@@ -1,3 +1,7 @@
+# Create Folder in Directory
+
+## Use: ./Create-Folder.ps1 -folderName "ayoub ali"     
+
 param (
     [Parameter(Mandatory=$true)]
     [string]$folderName
