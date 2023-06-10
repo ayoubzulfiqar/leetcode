@@ -228,6 +228,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**744.** Find Smallest Letter Greater Than Target](FindSmallestLetterGreaterThanTarget/find_smallest_letter_greater_than_target.dart)
 - [**1802.** Maximum Value at a Given Index in a Bounded Array](MaximumValueAtAGivenIndexInABoundedArray/maximum_value_at_a_given_index_in_a_bounded_array.dart)
 - [**412.** Fizz Buzz](FizzBuzz/fizz_buzz.dart)
+- [**414.** Third Maximum Number](ThirdMaximumNumber/third_maximum_number.dart)
 
 ## Reach me via
 
