@@ -227,6 +227,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1351.** Count Negative Numbers in a Sorted Matrix](CountNegativeNumbersInASortedMatrix/count_negative_numbers_in_a_sorted_matrix.dart)
 - [**744.** Find Smallest Letter Greater Than Target](FindSmallestLetterGreaterThanTarget/find_smallest_letter_greater_than_target.dart)
 - [**1802.** Maximum Value at a Given Index in a Bounded Array](MaximumValueAtAGivenIndexInABoundedArray/maximum_value_at_a_given_index_in_a_bounded_array.dart)
+- [**412.** Fizz Buzz](FizzBuzz/fizz_buzz.dart)
 
 ## Reach me via
 
