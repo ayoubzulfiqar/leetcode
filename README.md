@@ -230,6 +230,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**412.** Fizz Buzz](FizzBuzz/fizz_buzz.dart)
 - [**414.** Third Maximum Number](ThirdMaximumNumber/third_maximum_number.dart)
 - [**415.** Add Strings](AddStrings/add_strings.dart)
+- [**2352.** Equal Row and Column Pairs](EqualRowAndColumnPairs/equal_row_and_column_pairs.dart)
 
 ## Reach me via
 
