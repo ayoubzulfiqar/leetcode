@@ -231,6 +231,8 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**414.** Third Maximum Number](ThirdMaximumNumber/third_maximum_number.dart)
 - [**415.** Add Strings](AddStrings/add_strings.dart)
 - [**2352.** Equal Row and Column Pairs](EqualRowAndColumnPairs/equal_row_and_column_pairs.dart)
+- [**1569.** Number of Ways to Reorder Array to Get Same BST](NumberOfWaysToReorderArrayToGetSameBst/number_of_ways_to_reorder_array_to_get_same_bst.dart)
+- [**1187.** Make Array Strictly Increasing](MakeArrayStrictlyIncreasing\make_array_strictly_increasing.dart)
 
 ## Reach me via
 

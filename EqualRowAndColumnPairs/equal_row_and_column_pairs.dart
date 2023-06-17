@@ -82,7 +82,7 @@ class B {
   }
 }
 
-class B {
+class F {
   List<List<int>> transpose(List<List<int>> gr) {
     final List<List<int>> gc = [].map((e) => <int>[]).toList();
     int n = gr.length;
