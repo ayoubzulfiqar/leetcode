@@ -233,6 +233,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2352.** Equal Row and Column Pairs](EqualRowAndColumnPairs/equal_row_and_column_pairs.dart)
 - [**1569.** Number of Ways to Reorder Array to Get Same BST](NumberOfWaysToReorderArrayToGetSameBst/number_of_ways_to_reorder_array_to_get_same_bst.dart)
 - [**1187.** Make Array Strictly Increasing](MakeArrayStrictlyIncreasing\make_array_strictly_increasing.dart)
+- [**1732.** Find the Highest Altitude](FindTheHighestAltitude/find_the_highest_altitude.dart)
 
 ## Reach me via
 
