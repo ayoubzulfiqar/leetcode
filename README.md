@@ -234,6 +234,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1569.** Number of Ways to Reorder Array to Get Same BST](NumberOfWaysToReorderArrayToGetSameBst/number_of_ways_to_reorder_array_to_get_same_bst.dart)
 - [**1187.** Make Array Strictly Increasing](MakeArrayStrictlyIncreasing\make_array_strictly_increasing.dart)
 - [**1732.** Find the Highest Altitude](FindTheHighestAltitude/find_the_highest_altitude.dart)
+- [**2090.** K Radius SubArray Averages](KRadiusSubarrayAverages/k_radius_subarray_averages.dart)
 
 ## Reach me via
 
