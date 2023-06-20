@@ -53,23 +53,17 @@ n == nums.length
 
 class A {
   List<int> getAverages(List<int> nums, int k) {
-    int n = nums.length;
-    int windowSize = 2 * k + 1;
-    List<int> ans = List.filled(n, -1);
-    // Arrays.fill(ans,-1);
+    final int n = nums.length;
+    final int windowSize = 2 * k + 1;
+    final List<int> ans = List.filled(n, -1);
 
-    if (n < windowSize) {
-      return ans;
-    }
+    if (n < windowSize) return ans;
 
-    List<int> prefixSum = List.filled(n + 1, 0);
-    for (int i = 0; i < n; ++i) {
-      prefixSum[i + 1] = prefixSum[i] + nums[i];
-    }
+    final List<int> prefixSum = List.filled(n + 1, 0);
+    for (int i = 0; i < n; ++i) prefixSum[i + 1] = prefixSum[i] + nums[i];
 
-    for (int i = k; i + k < n; ++i) {
+    for (int i = k; i + k < n; ++i)
       ans[i] = ((prefixSum[i + k + 1] - prefixSum[i - k]) ~/ windowSize);
-    }
 
     return ans;
   }
