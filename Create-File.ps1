@@ -1,6 +1,6 @@
 # Create File in a directory
 
-# Use: ../Create-File.ps1 -FileName "Your-File_Name.extention"
+# Use: ../Create-File.ps1 -FileName "Your_File_Name.extention"
 
 Param(
     [Parameter(Mandatory=$true)]
