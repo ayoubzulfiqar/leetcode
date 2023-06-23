@@ -236,6 +236,9 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1732.** Find the Highest Altitude](FindTheHighestAltitude/find_the_highest_altitude.dart)
 - [**2090.** K Radius SubArray Averages](KRadiusSubarrayAverages/k_radius_subarray_averages.dart)
 - [**714.** Best Time to Buy and Sell Stock with Transaction Fee](BestTimeToBuyAndSellStockWithTransactionFee/best_time_to_buy_and_sell_stock_with_transaction_fee.dart)
+- [**1027.** Longest Arithmetic Subsequence](LongestArithmeticSubsequence/longest_arithmetic_subsequence.dart)
+
+
 
 ## Reach me via
 
