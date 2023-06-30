@@ -195,14 +195,3 @@ func traverse(grid []string, queue []State, allKeys int, keys map[byte]bool, loc
 	}
 	return -1
 }
-
-// func main() {
-// 	grid := []string{
-// 		"@.a.#",
-// 		"###.#",
-// 		"b.A.B",
-// 	}
-
-// 	result := shortestPathAllKeys(grid)
-// 	fmt.Println(result) // Output: 8
-// }
