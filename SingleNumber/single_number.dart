@@ -90,7 +90,7 @@ class C {
 // Runtime: 601 ms, faster than 24.36% of Dart online submissions for Single Number.
 // Memory Usage: 147.2 MB, less than 52.56% of Dart online submissions for Single Number.
   int singleNumber(List<int> nums) {
-    // whole llenght of the list
+    // whole length of the list
     int length = nums.length;
     // if the list have only one value thn we will return that value which is
     // at first index
@@ -113,7 +113,7 @@ class C {
 class D {
 /*
 
-ssuming our array has all pairs. i.e. we don’t have a single number. Then, following is true:
+sum-ing our array has all pairs. i.e. we don’t have a single number. Then, following is true:
 
 2 (sum of unique numbers) = (sum of all numbers)
 Now, if we know one of the number is missing in pairs. Following must be true:
