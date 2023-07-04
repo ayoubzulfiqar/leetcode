@@ -1,5 +1,8 @@
 package main
 
+/*--------------------- Bit Manipulation
+
+
 func singleNumber(nums []int) int {
 	var ans int = 0
 
@@ -18,4 +21,19 @@ func singleNumber(nums []int) int {
 	}
 
 	return ans
+}
+
+*/
+
+func singleNumber(nums []int) int {
+	var ones int = 0
+	var twos int = 0
+
+	for i := 0; i < len(nums); i++ {
+		var number int = nums[i]
+		ones ^= (number & ^twos)
+		twos ^= (number & ^ones)
+	}
+
+	return ones
 }
