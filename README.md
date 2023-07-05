@@ -242,6 +242,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1970.** Last Day Where You Can Still Cross](LastDayWhereYouCanStillCross/last_day_where_you_can_still_cross.dart)
 - [**859.** Buddy Strings](BuddyStrings/buddy_strings.dart)
 - [**137.** Single Number II](SingleNumberII/single_number_ii.dart)
+- [**1493.** Longest Subarray of 1's After Deleting One Element](LongestSubarrayOf1SAfterDeletingOneElement/longest_subarray_of_1s_after_deleting_one_element.dart)
 
 ## Reach me via
 
