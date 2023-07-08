@@ -244,6 +244,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**137.** Single Number II](SingleNumberII/single_number_ii.dart)
 - [**1493.** Longest Subarray of 1's After Deleting One Element](LongestSubarrayOf1SAfterDeletingOneElement/longest_subarray_of_1s_after_deleting_one_element.dart)
 - [**2024.** Maximize the Confusion of an Exam](MaximizeTheConfusionOfAnExam/maximize_the_confusion_of_an_exam.dart)
+- [**2551.** Put Marbles in Bags](PutMarblesInBags)
 
 ## Reach me via
 
