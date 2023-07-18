@@ -247,6 +247,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2551.** Put Marbles in Bags](PutMarblesInBags)
 - [**863.** All Nodes Distance K in Binary Tree](AllNodesDistanceKInBinaryTree)
 - [**207.** Course Schedule](CourseSchedule)
+- [**146.** LRU Cache](LRUCache)
 
 ## Reach me via
 
