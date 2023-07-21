@@ -249,6 +249,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**207.** Course Schedule](CourseSchedule)
 - [**146.** LRU Cache](LRUCache)
 - [**735.** Asteroid Collision](AsteroidCollision)
+- [**673.** Number of Longest Increasing Subsequence](NumberofLongestIncreasingSubsequence)
 
 ## Reach me via
 
