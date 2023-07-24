@@ -250,6 +250,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**146.** LRU Cache](LRUCache)
 - [**735.** Asteroid Collision](AsteroidCollision)
 - [**673.** Number of Longest Increasing Subsequence](NumberofLongestIncreasingSubsequence)
+- [**50. Pow(x, n)**](PowOfXN)
 
 ## Reach me via
 
