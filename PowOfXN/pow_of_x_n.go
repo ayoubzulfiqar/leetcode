@@ -61,7 +61,7 @@ func myPow(x float64, n int) float64 {
 }
 
 
-*/
+
 
 
 
@@ -87,6 +87,41 @@ func myPow(x float64, n int) float64 {
 		}
 		x *= x
 		n >>= 1
+	}
+
+	return ans
+}
+*/
+
+// Fastest Bitwise
+
+func power(x float64, n int) float64 {
+	if n == 0 {
+		return 1
+	}
+
+	if n%2 == 0 {
+		return power(x*x, n/2)
+	}
+
+	return x * power(x, n-1)
+}
+
+func myPow(x float64, n int) float64 {
+	if n == 0 {
+		return 1
+	}
+
+	var l int
+	if n < 0 {
+		l = -n
+	} else {
+		l = n
+	}
+
+	ans := power(x, l)
+	if n < 0 {
+		return 1 / ans
 	}
 
 	return ans
