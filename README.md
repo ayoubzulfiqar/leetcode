@@ -252,6 +252,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**673.** Number of Longest Increasing Subsequence](NumberofLongestIncreasingSubsequence)
 - [**50. Pow(x, n)**](PowOfXN)
 - [**852.** Peak Index in a Mountain Array](PeakIndexInAMountainArray)
+- [**1870.** Minimum Speed to Arrive on Time](MinimumSpeedToArriveOnTime)
 
 ## Reach me via
 
