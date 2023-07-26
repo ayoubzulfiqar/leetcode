@@ -92,15 +92,17 @@ class A {
 class B {
   int minSpeedOnTime(List<int> dist, double hour) {
     int n = dist.length;
-    if (hour <= n - 1) return -1;
-    int l = 1, r = 10000000; // This is equivalent to 1e7 in C++
+    if (hour <= n - 1) return -1.ceil();
+    int l = 1;
+
+    int r = 1e7.toInt(); // This is equivalent to 1e7 in C++
 
     while (l < r) {
       int mid = l + ((r - l) ~/ 2);
       double time = 0.0; // Initialize time as a double
 
       for (int i = 0; i < n - 1; i++) {
-        time += (dist[i] / mid).ceilToDouble();
+        time += (dist[i] / mid);
       }
 
       time += dist[n - 1] / mid;
@@ -112,7 +114,7 @@ class B {
       }
     }
 
-    return l;
+    return l.ceil();
   }
 }
 
