@@ -1,6 +1,6 @@
-# Create Folder in Directory
+# # Create Folder in Directory
 
-## Use: ./Create-Folder.ps1 -folderName "ayoub ali"     
+# ## Use: ./Create-Folder.ps1 -folderName "ayoub ali"     
 
 param (
     [Parameter(Mandatory=$true)]
@@ -39,4 +39,7 @@ if (Test-Path $folderName) {
 # Create the folder
 New-Item -ItemType Directory -Path $folderName -Force | Out-Null
 
-Write-Host "Folder '$folderName' created successfully."
+# Change the current location to the newly created folder
+Set-Location -Path $folderName
+
+Write-Host "Folder '$folderName' created successfully and current location set to the new folder."
