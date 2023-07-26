@@ -13,14 +13,21 @@ $NewFileName = $FileName.ToLower()
 # Replace spaces with underscores
 $NewFileName = $NewFileName -replace '\s', '_'
 
-# Check if the file already exists
-if (Test-Path -Path $NewFileName -PathType Leaf) {
-    Write-Output "File '$NewFileName' already exists."
-    # You can choose to skip the creation of the new file or rename the existing file here.
-}
-else {
-    # Create a new file with the modified name
-    $NewFile = New-Item -ItemType File -Path $NewFileName -ErrorAction Stop
-    # Output the new file name
-    Write-Output "New file created: $NewFileName"
+# Create an array of extensions to use
+$extensions = @('.md', '.go', '.dart')
+
+foreach ($ext in $extensions) {
+    $fullFileName = $NewFileName + $ext
+
+    # Check if the file already exists
+    if (Test-Path -Path $fullFileName -PathType Leaf) {
+        Write-Output "File '$fullFileName' already exists."
+        # You can choose to skip the creation of the new file or rename the existing file here.
+    }
+    else {
+        # Create a new file with the modified name and extension
+        $NewFile = New-Item -ItemType File -Path $fullFileName -ErrorAction Stop
+        # Output the new file name
+        Write-Output "New file created: $fullFileName"
+    }
 }
