@@ -253,6 +253,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**50.** Pow(x, n)](PowOfXN)
 - [**852.** Peak Index in a Mountain Array](PeakIndexInAMountainArray)
 - [**1870.** Minimum Speed to Arrive on Time](MinimumSpeedToArriveOnTime)
+- [**486.** Predict the Winner](PredictTheWinner)
 
 ## Reach me via
 
