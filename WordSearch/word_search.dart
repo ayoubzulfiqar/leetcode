@@ -39,7 +39,7 @@ Follow up: Could you use search pruning to make your solution faster with a larg
 
 */
 
-class A {
+class Solution {
   late List<List<bool>> visited;
   late int n;
   late int m;
