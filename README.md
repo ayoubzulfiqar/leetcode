@@ -256,6 +256,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**486.** Predict the Winner](PredictTheWinner)
 - [**808.** Soup Servings](SoupServings)
 - [**139.** Word Break](WordBreak)
+- [**95.** Unique Binary Search Trees II](UniqueBinarySearchTreesII)
 
 ## Reach me via
 
