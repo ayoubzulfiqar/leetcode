@@ -255,6 +255,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**1870.** Minimum Speed to Arrive on Time](MinimumSpeedToArriveOnTime)
 - [**486.** Predict the Winner](PredictTheWinner)
 - [**808.** Soup Servings](SoupServings)
+- [**139.** Word Break](WordBreak)
 
 ## Reach me via
 
