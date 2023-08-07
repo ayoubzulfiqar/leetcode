@@ -257,6 +257,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**808.** Soup Servings](SoupServings)
 - [**139.** Word Break](WordBreak)
 - [**95.** Unique Binary Search Trees II](UniqueBinarySearchTreesII)
+- [**74.** Search a 2D Matrix](SearchA2DMatrix)
 
 ## Reach me via
 
