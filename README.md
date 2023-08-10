@@ -259,6 +259,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**95.** Unique Binary Search Trees II](UniqueBinarySearchTreesII)
 - [**74.** Search a 2D Matrix](SearchA2DMatrix)
 - [**2616.** Minimize the Maximum Difference of Pairs](MinimizeTheMaximumDifferenceOfPairs)
+- [**81.** Search in Rotated Sorted Array II](SearchInRotatedSortedArrayII)
 
 ## Reach me via
 
