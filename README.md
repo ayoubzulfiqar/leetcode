@@ -261,6 +261,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2616.** Minimize the Maximum Difference of Pairs](MinimizeTheMaximumDifferenceOfPairs)
 - [**81.** Search in Rotated Sorted Array II](SearchInRotatedSortedArrayII)
 - [**518.** Coin Change II](CoinChangeII)
+- [**2369.** Check if There is a Valid Partition For The Array](CheckIfThereIsAValidPartitionForTheArray)
 
 ## Reach me via
 
