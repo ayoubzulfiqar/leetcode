@@ -265,6 +265,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**86.** Partition List](PartitionList)
 - [**239.** Sliding Window Maximum](SlidingWindowMaximum)
 - [**542.** 01 Matrix](01Matrix)
+- [**1615.** Maximal Network Rank](MaximalNetworkRank)
 
 ## Reach me via
 
