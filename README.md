@@ -264,6 +264,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**2369.** Check if There is a Valid Partition For The Array](CheckIfThereIsAValidPartitionForTheArray)
 - [**86.** Partition List](PartitionList)
 - [**239.** Sliding Window Maximum](SlidingWindowMaximum)
+- [**542.** 01 Matrix](01Matrix)
 
 ## Reach me via
 
