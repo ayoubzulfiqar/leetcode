@@ -47,12 +47,6 @@ Each pair of cities has at most one road connecting them.
 
 */
 
-class A {
-  int maximalNetworkRank(int n, List<List<int>> roads) {
-    return 0;
-  }
-}
-
 class Solution {
   int maximalNetworkRank(int n, List<List<int>> roads) {
     final List<int> degrees = List<int>.filled(n, 0);
