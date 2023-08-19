@@ -266,6 +266,7 @@ This repo contain leetcode solution using DART and GO programming language. Most
 - [**239.** Sliding Window Maximum](SlidingWindowMaximum)
 - [**542.** 01 Matrix](01Matrix)
 - [**1615.** Maximal Network Rank](MaximalNetworkRank)
+- [**1489.** Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](FindCriticalAndPseudoCriticalEdgesInMinimumSpanningTree)
 
 ## Reach me via
 
