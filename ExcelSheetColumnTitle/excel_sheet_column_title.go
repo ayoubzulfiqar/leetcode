@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+
 
 // func convertToTitle(n int) string {
 // 	result := ""
@@ -11,7 +11,7 @@ import "fmt"
 // 	}
 // 	return result
 // }
-
+/*
 func convertToTitle(n int) string {
 	result := ""
 	for n != 0 {
@@ -20,4 +20,13 @@ func convertToTitle(n int) string {
 		n = (n - 1) / 26
 	}
 	return result
+}
+
+*/
+func convertToTitle(columnNumber int) string {
+	if columnNumber == 0 {
+		return ""
+	}
+	columnNumber--
+	return convertToTitle(columnNumber/26) + string((columnNumber%26)+'A')
 }
