@@ -1,6 +1,6 @@
 # ![image](https://drive.google.com/uc?export=view&id=1dB-zc6mm2gBZQsOPqDWXRFPqDdrtv4d-)
 
-This repo contain leetcode solution using DART and GO programming language. Most of the solution I tried my best to implement Using Dart & Golang and I will keep doing it as long as I am alive.
+This repo contain leetcode solution using DART and GO programming language. You can find the Question Instructions in DART file. And I have done multiple Solutions in dart and Best adn the Fastest Possible Solution in GO Most of the solution.
 
 ## Solutions
 
