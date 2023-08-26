@@ -269,6 +269,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1489.** Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](FindCriticalAndPseudoCriticalEdgesInMinimumSpanningTree)
 - [**1203.** Sort Items by Groups Respecting Dependencies](SortItemsByGroupsRespectingDependencies)
 - [**97.** Interleaving String](InterleavingString)
+- [**646.** Maximum Length of Pair Chain](MaximumLengthOfPairChain)
 
 ## Reach me via
 
