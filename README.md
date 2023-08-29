@@ -270,6 +270,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1203.** Sort Items by Groups Respecting Dependencies](SortItemsByGroupsRespectingDependencies)
 - [**97.** Interleaving String](InterleavingString)
 - [**646.** Maximum Length of Pair Chain](MaximumLengthOfPairChain)
+- [**2483.** Minimum Penalty for a Shop](MinimumPenaltyForAShop)
 
 ## Reach me via
 
