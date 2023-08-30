@@ -271,6 +271,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**97.** Interleaving String](InterleavingString)
 - [**646.** Maximum Length of Pair Chain](MaximumLengthOfPairChain)
 - [**2483.** Minimum Penalty for a Shop](MinimumPenaltyForAShop)
+- [**2366.** Minimum Replacements to Sort the Array](MinimumReplacementsToSortTheArray)
 
 ## Reach me via
 
