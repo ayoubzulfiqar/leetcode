@@ -6,16 +6,6 @@ type ListNode struct {
 	Next *ListNode
 }
 
-/*
-
-ListNode? fast = head;
-    while (fast != null && fast.next != null) {
-      head = head?.next;
-      fast = fast.next?.next;
-      if (head == fast) return true;
-    }
-    return false;
-*/
 func hasCycle(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return false
