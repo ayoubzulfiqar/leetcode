@@ -272,6 +272,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**646.** Maximum Length of Pair Chain](MaximumLengthOfPairChain)
 - [**2483.** Minimum Penalty for a Shop](MinimumPenaltyForAShop)
 - [**2366.** Minimum Replacements to Sort the Array](MinimumReplacementsToSortTheArray)
+- [**138.** Copy List with Random Pointer](CopyListWithRandomPointer)
 
 ## Reach me via
 
