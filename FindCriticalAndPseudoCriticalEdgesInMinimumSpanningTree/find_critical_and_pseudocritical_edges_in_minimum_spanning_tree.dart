@@ -144,8 +144,8 @@ class Solution {
       final List<bool> mstEdgeSet,
       final List<List<int>> minimumSpanningTree,
       final List<List<List<int>>> graph) {
-    int weight = 0;
     final DisjointSet ds = DisjointSet(n);
+    int weight=0;
 
     for (int i = 0; i < edges.length; i++) {
       if (ds.union(edges[i][0], edges[i][1])) {
