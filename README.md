@@ -275,6 +275,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**138.** Copy List with Random Pointer](CopyListWithRandomPointer)
 - [**725.** Split Linked List in Parts](SplitLinkedListInParts)
 - [**377.** Combination Sum IV](CombinationSumIV)
+- [**1282.** Group the People Given the Group Size They Belong To](GroupThePeopleGivenTheGroupSizeTheyBelongTo)
 
 ## Reach me via
 
