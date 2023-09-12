@@ -276,6 +276,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**725.** Split Linked List in Parts](SplitLinkedListInParts)
 - [**377.** Combination Sum IV](CombinationSumIV)
 - [**1282.** Group the People Given the Group Size They Belong To](GroupThePeopleGivenTheGroupSizeTheyBelongTo)
+- [**1647.** Minimum Deletions to Make Character Frequencies Unique](MinimumDeletionsToMakeCharacterFrequenciesUnique)
 
 ## Reach me via
 
