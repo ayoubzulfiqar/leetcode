@@ -277,6 +277,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**377.** Combination Sum IV](CombinationSumIV)
 - [**1282.** Group the People Given the Group Size They Belong To](GroupThePeopleGivenTheGroupSizeTheyBelongTo)
 - [**1647.** Minimum Deletions to Make Character Frequencies Unique](MinimumDeletionsToMakeCharacterFrequenciesUnique)
+- [**1584.** Min Cost to Connect All Points](MinCostToConnectAllPoints)
 
 ## Reach me via
 
