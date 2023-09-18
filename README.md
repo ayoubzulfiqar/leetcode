@@ -279,6 +279,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1647.** Minimum Deletions to Make Character Frequencies Unique](MinimumDeletionsToMakeCharacterFrequenciesUnique)
 - [**1584.** Min Cost to Connect All Points](MinCostToConnectAllPoints)
 - [**1631.** Path With Minimum Effort](PathWithMinimumEffort)
+- [**1337.** The K Weakest Rows in a Matrix](TheKWeakestRowsInAMatrix)
 
 ## Reach me via
 
