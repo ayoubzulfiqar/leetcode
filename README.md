@@ -280,7 +280,8 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1584.** Min Cost to Connect All Points](MinCostToConnectAllPoints)
 - [**1631.** Path With Minimum Effort](PathWithMinimumEffort)
 - [**1337.** The K Weakest Rows in a Matrix](TheKWeakestRowsInAMatrix)
-- [**1424**](DiagonalTraverseIi)
+- [**1424** Diagonal Traverse II](DiagonalTraverseIi)
+- [**1630.** Arithmetic Subarrays](ArithmeticSubarrays)
 
 ## Reach me via
 
