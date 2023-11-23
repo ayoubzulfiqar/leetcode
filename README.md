@@ -282,6 +282,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1337.** The K Weakest Rows in a Matrix](TheKWeakestRowsInAMatrix)
 - [**1424** Diagonal Traverse II](DiagonalTraverseIi)
 - [**1630.** Arithmetic Subarrays](ArithmeticSubarrays)
+- [**1561.** Maximum Number of Coins You Can Get](MaximumNumberOfCoinsYouCanGet)
 
 ## Reach me via
 
