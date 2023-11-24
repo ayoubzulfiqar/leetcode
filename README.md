@@ -283,6 +283,7 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1424** Diagonal Traverse II](DiagonalTraverseIi)
 - [**1630.** Arithmetic Subarrays](ArithmeticSubarrays)
 - [**1561.** Maximum Number of Coins You Can Get](MaximumNumberOfCoinsYouCanGet)
+- [**1685.** Sum of Absolute Differences in a Sorted Array](SumOfAbsoluteDifferencesInASortedArray)
 
 ## Reach me via
 
