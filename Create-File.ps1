@@ -14,7 +14,7 @@ $NewFileName = $FileName.ToLower()
 $NewFileName = $NewFileName -replace '\s', '_'
 
 # Create an array of extensions to use
-$extensions = @('.md', '.go', '.dart')
+$extensions = @('.md', '.go', '.py')
 
 foreach ($ext in $extensions) {
     $fullFileName = $NewFileName + $ext
