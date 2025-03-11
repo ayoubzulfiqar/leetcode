@@ -1,6 +1,7 @@
 # ![image](https://drive.google.com/uc?export=view&id=1dB-zc6mm2gBZQsOPqDWXRFPqDdrtv4d-)
 
 This repo contain leetcode solution using DART and GO programming language. You can find the Question Instructions in DART file. And I have done multiple Solutions in dart and Best adn the Fastest Possible Solution in GO Most of the solution.
+Descalimer: Becasue of some weird reasons i decided to drop the support for dart. From now on I will implement in **Golang** and **Pyhton**
 
 ## Solutions
 
@@ -285,6 +286,8 @@ This repo contain leetcode solution using DART and GO programming language. You 
 - [**1561.** Maximum Number of Coins You Can Get](MaximumNumberOfCoinsYouCanGet)
 - [**1685.** Sum of Absolute Differences in a Sorted Array](SumOfAbsoluteDifferencesInASortedArray)
 - [**201.** Bitwise AND of Numbers Range](BitwiseAndOfNumbersRange)
+  Desclainmer: Dropping Dart for Python
+- [**8** String to Integer (atoi)](StringToInteger)
 
 ## Reach me via
 
