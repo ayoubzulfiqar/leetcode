@@ -48,8 +48,10 @@ class Solution {
     int n,
     List<List<int>> edges,
   ) {
-    final List<List<List<int>>> graph =
-        List.generate(n, (i) => List.generate(n, (j) => [0, 0]));
+    final List<List<List<int>>> graph = List.generate(
+      n,
+      (i) => List.generate(n, (j) => [0, 0]),
+    );
 
     for (int i = 0; i < edges.length; i++) {
       final List<int> edge = edges[i];
@@ -62,8 +64,10 @@ class Solution {
       graph[to][from][1] = i;
     }
 
-    final List<List<int>> minimumSpanningTree =
-        List.generate(n, (i) => <int>[]);
+    final List<List<int>> minimumSpanningTree = List.generate(
+      n,
+      (i) => <int>[],
+    );
 
     final List<bool> mstEdgeSet = List.filled(edges.length, false);
 
@@ -114,20 +118,28 @@ class Solution {
   }
 
   bool isPath(
-      final int from,
-      final int to,
-      final int weight,
-      final int previous,
-      final List<List<int>> minimumSpanningTree,
-      final List<List<List<int>>> graph,
-      final Set<int> indices) {
+    final int from,
+    final int to,
+    final int weight,
+    final int previous,
+    final List<List<int>> minimumSpanningTree,
+    final List<List<List<int>>> graph,
+    final Set<int> indices,
+  ) {
     if (from == to) {
       return true;
     }
     for (final int neighbor in minimumSpanningTree[from]) {
       if (previous != neighbor) {
         if (isPath(
-            neighbor, to, weight, from, minimumSpanningTree, graph, indices)) {
+          neighbor,
+          to,
+          weight,
+          from,
+          minimumSpanningTree,
+          graph,
+          indices,
+        )) {
           if (graph[from][neighbor][0] == weight) {
             indices.add(graph[from][neighbor][1]);
           }
@@ -139,17 +151,18 @@ class Solution {
   }
 
   void buildMinimumSpanningTree(
-      final int n,
-      final List<List<int>> edges,
-      final List<bool> mstEdgeSet,
-      final List<List<int>> minimumSpanningTree,
-      final List<List<List<int>>> graph) {
+    final int n,
+    final List<List<int>> edges,
+    final List<bool> mstEdgeSet,
+    final List<List<int>> minimumSpanningTree,
+    final List<List<List<int>>> graph,
+  ) {
     final DisjointSet ds = DisjointSet(n);
-    int weight=0;
+    int weight = 0;
 
     for (int i = 0; i < edges.length; i++) {
       if (ds.union(edges[i][0], edges[i][1])) {
-        weight += edges[i][2];
+        weight = weight + edges[i][2];
         final List<int> edge = edges[i];
         minimumSpanningTree[edge[0]].add(edge[1]);
         minimumSpanningTree[edge[1]].add(edge[0]);
