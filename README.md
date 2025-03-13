@@ -290,6 +290,7 @@ Probably **Zig** in near future
 - [**201.** Bitwise AND of Numbers Range](BitwiseAndOfNumbersRange)
   Desclainmer: Dropping Dart for Python
 - [**8** String to Integer (atoi)](StringToInteger)
+- [**7** Reverse Integer](ReverseInteger)
 
 ## Reach me via
 
