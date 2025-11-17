@@ -1,7 +1,8 @@
 # ![image](https://drive.google.com/uc?export=view&id=1dB-zc6mm2gBZQsOPqDWXRFPqDdrtv4d-)
 
-This repo contain leetcode solution using DART and GO programming language. You can find the Question Instructions in DART file. And I have done multiple Solutions in dart and Best and the Fastest Possible Solution in GO Most of the solution. **Typescritp**
+This repo contain leetcode solution using DART and GO programming language. You can find the Question Instructions in DART file. And I have done multiple Solutions in dart and Best and the Fastest Possible Solution in GO Most of the solution.
 
+Exteding  **TypeScript**
 
 ## Solutions
 
@@ -293,7 +294,6 @@ This repo contain leetcode solution using DART and GO programming language. You 
 ## Reach me via
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://ayoubzulfiqar3@gmail.com)
-
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayoubzulfiqar)
 
