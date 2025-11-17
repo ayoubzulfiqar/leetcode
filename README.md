@@ -1,9 +1,7 @@
 # ![image](https://drive.google.com/uc?export=view&id=1dB-zc6mm2gBZQsOPqDWXRFPqDdrtv4d-)
 
-This repo contain leetcode solution using DART and GO programming language. You can find the Question Instructions in DART file. And I have done multiple Solutions in dart and Best adn the Fastest Possible Solution in GO Most of the solution.
-Descalimer: Becasue of some weird reasons i decided to drop the support for dart. From now on I will implement in **Golang** and **Pyhton**
+This repo contain leetcode solution using DART and GO programming language. You can find the Question Instructions in DART file. And I have done multiple Solutions in dart and Best and the Fastest Possible Solution in GO Most of the solution. **Typescritp**
 
-Probably **Zig** in near future
 
 ## Solutions
 
